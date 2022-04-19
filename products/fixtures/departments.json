@@ -1,0 +1,50 @@
+[{
+    "pk": 1,
+    "model": "products.department",
+    "fields": {
+        "name": "anti_ageing",
+        "friendly_name": "Anti-Ageing"
+    }
+}, {
+    "pk": 2,
+    "model": "products.department",
+    "fields": {
+        "name": "dry_sensitive",
+        "friendly_name": "Dry & Sensitive"
+    }
+}, {
+    "pk": 3,
+    "model": "products.department",
+    "fields": {
+        "name": "oily",
+        "friendly_name": "Oily"
+    }
+}, {
+    "pk": 4,
+    "model": "products.department",
+    "fields": {
+        "name": "hair_growth",
+        "friendly_name": "Hair growth"
+    }
+}, {
+    "pk": 5,
+    "model": "products.department",
+    "fields": {
+        "name": "hair_conditioning",
+        "friendly_name": "Hair conditioning"
+    }
+}, {
+    "pk": 6,
+    "model": "products.department",
+    "fields": {
+        "name": "skincare_accessories",
+        "friendly_name": "Skincare accessories"
+    }
+}, {
+    "pk": 7,
+    "model": "products.department",
+    "fields": {
+        "name": "haircare_accessories",
+        "friendly_name": "Haircare accessories"
+    }
+}]
