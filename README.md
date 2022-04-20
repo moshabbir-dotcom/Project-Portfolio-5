@@ -245,7 +245,7 @@ However slightly adjusting the colour contrast by amending the css stylesheet al
 * [Views.py](https://github.com/moshabbir-dotcom/Portfolio-Project-4/blob/39853abb1ee53aea7edad976d9eb1e1274e60a7f/media/images/Views.png)
 
 ### Bugs
-* <!-- finsih-->
+* When attempting to add the "sort" functions in the products views it resulted in an error stating that the view could not return a sort by department. This was due to me filtering by using category name which I had registered in my product model causing confusion. To rectify this I changed the name of the field to "department" and adjusted the filtering code to also refer to department in order to maintain consistency in development.
 
 ## Deployment & setting up Postgres DB
 * On the home screen click on create new app
