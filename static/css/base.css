@@ -73,14 +73,14 @@ body {
 
 /* -------------------------------- Media Queries */
 
-/* Slightly larger container on xl screens */
+/* Slightly larger container to account for XL screens */
 @media (min-width: 1200px) {
     .container {
         max-width: 80%;
     }
 }
 
-/* fixed top navbar only on medium and up */
+/* fixed top navbar for medium screens and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
         position: fixed;
@@ -92,5 +92,16 @@ body {
 
     .header-container {
         padding-top: 164px;
+    }
+}
+
+/* pad the top of the screen when the navbar is collapsed on mobile screens */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
     }
 }
