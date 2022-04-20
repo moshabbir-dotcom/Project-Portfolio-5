@@ -17,10 +17,11 @@
                 Skincare
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="skincare-link">
-                <a href="" class="dropdown-item">Anti-ageing</a>
-                <a href="" class="dropdown-item">Dry &amp; sensitive</a>
-                <a href="" class="dropdown-item">Oily</a>
-                <a href="" class="dropdown-item">All Skincare</a>
+                <a href="{% url 'products' %}?department=anti_ageing" class="dropdown-item">Anti-ageing</a>
+                <a href="{% url 'products' %}?department=dry_sensitive" class="dropdown-item">Dry &amp; sensitive</a>
+                <a href="{% url 'products' %}?department=oily" class="dropdown-item">Oily</a>
+                <a href="{% url 'products' %}?department=bathtime" class="dropdown-item">Bathtime</a>
+                <a href="{% url 'products' %}?department=anti_ageing,dry_sensitive,oily,bathtime" class="dropdown-item">All Skincare</a>
             </div>
         </li>
 
@@ -29,9 +30,10 @@
                 Haircare
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="haircare-link">
-                <a href="" class="dropdown-item">Hair growth</a>
-                <a href="" class="dropdown-item">Hair conditioning</a>
-                <a href="" class="dropdown-item">All Haircare</a>
+                <a href="{% url 'products' %}?department=hair_growth" class="dropdown-item">Hair growth</a>
+                <a href="{% url 'products' %}?department=hair_conditioning" class="dropdown-item">Hair conditioning</a>
+                <a href="{% url 'products' %}?department=beardcare" class="dropdown-item">Beard care</a>
+                <a href="{% url 'products' %}?department=hair_growth,hair_conditioning,beardcare" class="dropdown-item">All Haircare</a>
             </div>
         </li>
 
@@ -40,9 +42,9 @@
                 Accessories
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="accessories-link">
-                <a href="" class="dropdown-item">Skncare Accessories</a>
-                <a href="" class="dropdown-item">Haircare Accessories</a>
-                <a href="" class="dropdown-item">All Accessories</a>
+                <a href="{% url 'products' %}?department=skincare_accessories" class="dropdown-item">Skincare Accessories</a>
+                <a href="{% url 'products' %}?department=haircare_accessories" class="dropdown-item">Haircare Accessories</a>
+                <a href="{% url 'products' %}?department=skincare_accessories,haircare_accessories" class="dropdown-item">All Accessories</a>
             </div>
         </li>
     </ul>
