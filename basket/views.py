@@ -18,28 +18,28 @@ def add_to_basket(request, item_id):
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
     redirect_url = request.POST.get('redirect_url')
-    size = None
-    if 'product_size' in request.POST:
-        size = request.POST['product_size']
+    colour = None
+    if 'product_colour' in request.POST:
+        colour = request.POST['product_colour']
     basket = request.session.get('basket', {})
 
-    if size:
+    if colour:
         if item_id in list(basket.keys()):
-            if size in basket[item_id]['items_by_size'].keys():
-                basket[item_id]['items_by_size'][size] += quantity
+            if colour in basket[item_id]['items_by_colour'].keys():
+                basket[item_id]['items_by_colour'][colour] += quantity
                 messages.success(request,
-                                 (f'Updated size {size.upper()} '
+                                 (f'Updated colour {colour.upper()} '
                                   f'{product.name} quantity to '
-                                  f'{basket[item_id]["items_by_size"][size]}'))
+                                  f'{basket[item_id]["items_by_colour"][colour]}'))
             else:
-                basket[item_id]['items_by_size'][size] = quantity
+                basket[item_id]['items_by_colour'][colour] = quantity
                 messages.success(request,
-                                 (f'Added size {size.upper()} '
+                                 (f'Added colour {colour.upper()} '
                                   f'{product.name} to your shopping basket'))
         else:
-            basket[item_id] = {'items_by_size': {size: quantity}}
+            basket[item_id] = {'items_by_colour': {colour: quantity}}
             messages.success(request,
-                             (f'Added size {size.upper()} '
+                             (f'Added colour {colour.upper()} '
                               f'{product.name} shopping basket'))
     else:
         if item_id in list(basket.keys()):
@@ -61,23 +61,23 @@ def adjust_basket(request, item_id):
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
     size = None
-    if 'product_size' in request.POST:
-        size = request.POST['product_size']
+    if 'product_colour' in request.POST:
+        colour = request.POST['product_colour']
     basket = request.session.get('basket', {})
 
     if size:
         if quantity > 0:
-            basket[item_id]['items_by_size'][size] = quantity
+            basket[item_id]['items_by_colour'][colour] = quantity
             messages.success(request,
-                             (f'Updated size {size.upper()} '
+                             (f'Updated colour {colour.upper()} '
                               f'{product.name} quantity to '
-                              f'{bag[item_id]["items_by_size"][size]}'))
+                              f'{bag[item_id]["items_by_colour"][colour]}'))
         else:
-            del basket[item_id]['items_by_size'][size]
-            if not basket[item_id]['items_by_size']:
+            del basket[item_id]['items_by_colour'][colour]
+            if not basket[item_id]['items_by_colour']:
                 basket.pop(item_id)
             messages.success(request,
-                             (f'Removed size {size.upper()} '
+                             (f'Removed colour {colour.upper()} '
                               f'{product.name} from your shopping basket'))
     else:
         if quantity > 0:
@@ -100,17 +100,17 @@ def remove_from_basket(request, item_id):
 
     try:
         product = get_object_or_404(Product, pk=item_id)
-        size = None
-        if 'product_size' in request.POST:
-            size = request.POST['product_size']
+        colour = None
+        if 'product_colour' in request.POST:
+            colour = request.POST['product_colour']
         basket = request.session.get('basket', {})
 
-        if size:
-            del basket[item_id]['items_by_size'][size]
-            if not basket[item_id]['items_by_size']:
+        if colour:
+            del basket[item_id]['items_by_colour'][colour]
+            if not basket[item_id]['items_by_colour']:
                 basket.pop(item_id)
             messages.success(request,
-                             (f'Removed size {size.upper()} '
+                             (f'Removed colour {colour.upper()} '
                               f'{product.name} from your shopping basket'))
         else:
             basket.pop(item_id)
