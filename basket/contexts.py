@@ -23,14 +23,14 @@ def basket_contents(request):
             })
         else:
             product = get_object_or_404(Product, pk=item_id)
-            for size, quantity in item_data['items_by_size'].items():
+            for colour, quantity in item_data['items_by_colour'].items():
                 total += quantity * product.price
                 product_count += quantity
                 basket_items.append({
                     'item_id': item_id,
                     'quantity': quantity,
                     'product': product,
-                    'size': size,
+                    'colour': colour,
                 })
 
     if total < settings.FREE_DELIVERY_THRESHOLD:
