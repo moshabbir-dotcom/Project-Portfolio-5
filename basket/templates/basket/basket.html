@@ -22,7 +22,7 @@
 
     <div class="row">
         <div class="col">
-            {% if bag_items %}
+            {% if basket_items %}
             <div class="table-responsive rounded">
                 <table class="table table-sm table-borderless">
                     <thead class="text-black">
@@ -126,7 +126,7 @@
 </div>
 {% endblock %}
 
-<!-- {% block postloadjs %}
+{% block postloadjs %}
 {{ block.super }}
 {% include 'products/includes/quantity_input_script.html' %}
 
@@ -154,4 +154,4 @@
             });
     })
 </script>
-{% endblock %} -->
+{% endblock %}

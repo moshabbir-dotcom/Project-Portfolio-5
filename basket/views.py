@@ -7,6 +7,7 @@ def view_basket(request):
 
     return render(request, 'basket/basket.html')
 
+
 def add_to_basket(request, item_id):
     """ Add the quantity of a specific item to the users basket """
 
@@ -33,7 +34,7 @@ def add_to_basket(request, item_id):
 
     request.session['basket'] = basket
     return redirect(redirect_url)
-    
+
 
 def adjust_basket(request, item_id):
     """Adjust quantity of a specific item to the new amount selected"""
@@ -66,7 +67,7 @@ def remove_from_basket(request, item_id):
 
     try:
         colour = None
-        if 'product_size' in request.POST:
+        if 'product_colour' in request.POST:
             colour = request.POST['product_colour']
         basket = request.session.get('basket', {})
 
