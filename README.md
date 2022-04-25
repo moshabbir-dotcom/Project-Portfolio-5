@@ -246,6 +246,9 @@ However slightly adjusting the colour contrast by amending the css stylesheet al
 
 ### Bugs
 * When attempting to add the "sort" functions in the products views it resulted in an error stating that the view could not return a sort by department. This was due to me filtering by using category name which I had registered in my product model causing confusion. To rectify this I changed the name of the field to "department" and adjusted the filtering code to also refer to department in order to maintain consistency in development.
+* When adding the functionality for "add to basket"
+* When completing the layout for the basket.html view I encountered and issue whereby I had an error being shown in debug view highligting the endblock stating thaty there was an endfor or endif block statement missing within the file. This was due not to being missing but they had been put into the wrong positions and when swapped the page loaded as required.
+* 
 
 ## Deployment & setting up Postgres DB
 * On the home screen click on create new app
