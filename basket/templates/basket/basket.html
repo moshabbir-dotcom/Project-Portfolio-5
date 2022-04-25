@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+{% load basket_tools %}
 
 {% block page_header %}
 <div class="container header-container">
@@ -43,7 +44,7 @@
                         </td>
                         {% else %}
                         <td class="p-3 w-25">
-                            <img class="img-fluid rounded" src="/workspace/Project-Portfolio-5/media/noimage.jpg">
+                            <img class="img-fluid rounded" src="/media/noimage.jpg">
                         </td>
                         {% endif %}
                         <td class="py-3">
@@ -80,7 +81,7 @@
                             <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}"><small>Remove</small></a>
                         </td>
                         <td class="py-3">
-                            <p class="my-0">£{{ item.product.price }}</p>
+                            <p class="my-0">£{{ item.product.price | calc_subtotal:item.quantity }}</p>
                         </td>
                     </tr>
                     {% endfor %}
