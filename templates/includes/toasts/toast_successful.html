@@ -24,7 +24,7 @@
                         {% if product.image %}
                         <img class="w-100" src="{{ item.product.image.url }}">
                         {% else %}
-                        <img class="card-img-top img-fluid" src="/workspace/Project-Portfolio-5/media/noimage.jpg" alt="{{ product.name }}">
+                        <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.jpg" alt="{{ product.name }}">
                         {% endif %}
                     </div>
                     <div class="col-9">
