@@ -1,3 +1,11 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'blog/css/blog.css' %}">
+{% endblock %}
+
+{% block content %}
 <div class="container-fluid">
     <div class="row my-4">
         <div class="col-12">
@@ -117,3 +125,4 @@
         </div>
     </div>
 </div>
+{% endblock %}

@@ -10,7 +10,7 @@
 
 .blog-welcome-title {
     background-color: #432818;
-    color: #fff;
+    color: #fdfffc;
     padding: 5px;
     text-align: center;
     text-transform: uppercase;
@@ -20,7 +20,7 @@
 
 .new-post-button {
     background-color: #432818;
-    color: #fff;
+    color: #fdfffc;
     margin: 10px;
     padding: 5px;
     text-transform: uppercase;
@@ -43,7 +43,7 @@
 }
 
 .blog-title {
-    color: #fff;
+    color: #fdfffc;
 }
 
 .blog-title:hover {
@@ -73,7 +73,7 @@
 .post-detail-edit-button,
 .post-detail-delete-button {
     background-color: #432818;
-    color: #fff;
+    color: #fdfffc;
     margin: 10px;
     padding: 5px;
     text-transform: uppercase;
@@ -105,7 +105,7 @@
 .submit-comment-button,
 .reset-comment-button {
     background-color: #432818;
-    color: #fff;
+    color: #fdfffc;
     text-transform: uppercase;
     border: 3px #000 solid !important;
     border-radius: 3px;
@@ -123,7 +123,7 @@
 
 .delete-blog-modal-button {
     background-color: #dc3545;
-    color: #fff !important;
+    color: #fdfffc !important;
     text-transform: uppercase !important;
     border: 3px #000 solid;
     float: right;
@@ -135,7 +135,7 @@
 
 .blog-delete-modal {
     background-color: #432818;
-    color: #fff;
+    color: #fdfffc;
     text-transform: uppercase;
     border: 3px #dc3545 solid;
 }
@@ -162,7 +162,7 @@
 
 .blog-modal-delete-button {
     background-color: #dc3545;
-    color: #fff !important;
+    color: #fdfffc !important;
     border: 2px #000 solid;
 }
 
@@ -174,7 +174,7 @@ a.text-danger:hover,
 
 .blog-modal-cancel-button {
     background-color: #14591d;
-    color: #fff !important;
+    color: #fdfffc !important;
     text-transform: uppercase;
     border: 2px #000 solid;
 }
@@ -189,7 +189,7 @@ a.text-danger:hover,
 
 .add-blog-title-heading {
     background-color: #432818;
-    color: #fff;
+    color: #fdfffc;
     font-size: 70px;
     margin: 10px;
     padding: 5px;
@@ -205,7 +205,7 @@ a.text-danger:hover,
 .submit-add-post-button,
 .cancel-add-post-button {
     background-color: #14591d;
-    color: #fff;
+    color: #fdfffc;
     text-transform: uppercase;
     border: 3px #000 solid !important;
     border-radius: 3px;
@@ -220,7 +220,7 @@ a.text-danger:hover,
 
 .edit-blog-title-heading {
     background-color: #432818;
-    color: #fff;
+    color: #fdfffc;
     font-size: 70px;
     margin: 10px;
     padding: 5px;
@@ -231,7 +231,7 @@ a.text-danger:hover,
 .edit-post-update-button,
 .cancel-post-update-button {
     background-color: #14591d;
-    color: #fff;
+    color: #fdfffc;
     text-transform: uppercase;
     border: 3px #000 solid !important;
     border-radius: 3px;
