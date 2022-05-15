@@ -18,20 +18,6 @@
     border-radius: 3px;
 }
 
-.new-post-button {
-    background-color: #432818;
-    color: #fdfffc;
-    margin: 10px;
-    padding: 5px;
-    text-transform: uppercase;
-    border: 3px #000 solid !important;
-    border-radius: 3px;
-}
-
-.new-post-button:hover {
-    color: #28a745;
-    text-decoration: none;
-}
 
 .blog-card {
     margin: 10px;
@@ -68,6 +54,7 @@
     text-decoration: none;
 }
 
+/* Continue to disect the below */
 /* post detail page */
 
 .back-to-homepage-button,
@@ -188,7 +175,7 @@ a.text-danger:hover,
 
 /* add post page */
 
-.add-blog-title-heading {
+/* .add-blog-title-heading {
     background-color: #432818;
     color: #fdfffc;
     font-size: 70px;
@@ -197,25 +184,25 @@ a.text-danger:hover,
     text-align: center;
     text-transform: uppercase;
     border: 3px #000 solid;
-}
+} */
 
-.add-new-post-box {
+/* .add-new-post-box {
     opacity: 0.9;
-}
+} */
 
-.submit-add-post-button,
+/* .submit-add-post-button,
 .cancel-add-post-button {
     background-color: #14591d;
     color: #fdfffc;
     text-transform: uppercase;
     border: 3px #000 solid !important;
     border-radius: 3px;
-}
+} */
 
-.submit-add-post-button:hover,
+/* .submit-add-post-button:hover,
 .cancel-add-post-button:hover {
     color: #000;
-}
+} */
 
 /* edit blog post page */
 
