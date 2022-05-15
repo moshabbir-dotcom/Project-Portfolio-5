@@ -38,8 +38,9 @@
 }
 
 .card-body {
-    background-color: #432818 !important;
+    background-color: #011627 !important;
     text-align: center;
+    padding-top: 35px;
 }
 
 .blog-title {
@@ -47,23 +48,23 @@
 }
 
 .blog-title:hover {
-    color: #28a745;
+    color: #2ec4b6;
     text-decoration: none;
 }
 
 .card-text {
-    background-color: #14591d;
+    background-color: #fdfffc;
     padding: 10px;
 }
 
 .blog-add-comment-link,
 .blog-see-all-comment-link {
-    color: #FFFF2d;
+    color: #007bff;
 }
 
 .blog-add-comment-link:hover,
 .blog-see-all-comment-link:hover {
-    color: #28a745;
+    color: #2ec4b6;
     text-decoration: none;
 }
 

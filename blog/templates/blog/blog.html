@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block extra_css %}
-<link rel="stylesheet" href="{% static 'blog/css/blog.css' %}">
+<link rel="stylesheet" href="{% static 'blog/blog.css' %}">
 {% endblock %}
 
 {% block content %}
@@ -12,12 +12,7 @@
             <h2 class="blog-welcome-title my-4">Welcome to the blog!</h2>
         </div>
     </div>
-    <div class="row text-center">
-        <div class="col-12">
-            <a class="button new-post-button my-4" href="{% url 'add_post' %}">New Post
-                <i class="fas fa-plus-circle m-2"></i></a>
-        </div>
-    </div>
+
     <div class="row">
         {% for post in posts %}
         <div class="col-lg-4 col-md-6 col-sm-6">
@@ -57,6 +52,12 @@
             </div>
         </div>
         {% endfor %}
+    </div>
+    <div class="row text-center">
+        <div class="col-12">
+            <a class="btn btn-black rounded-0 text-uppercase mt-5" href="{% url 'add_post' %}">New Post
+                <i class="fas fa-plus-circle m-2"></i></a>
+        </div>
     </div>
 </div>
 {% endblock %}
