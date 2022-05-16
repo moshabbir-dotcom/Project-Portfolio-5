@@ -1,0 +1,1 @@
+web: gunicorn aljild-walshier.wsgi:application
