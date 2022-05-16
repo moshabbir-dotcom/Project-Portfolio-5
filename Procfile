@@ -1,1 +1,1 @@
-web: gunicorn aljild-walshier.wsgi:application
+web: gunicorn e-commerce.wsgi:application
