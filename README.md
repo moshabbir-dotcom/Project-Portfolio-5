@@ -197,7 +197,7 @@ However slightly adjusting the colour contrast by amending the css stylesheet al
 
 ## Features
 ### Navigation
-* The navigation bar was designed as a <!-- finsih-->
+* The navigation bar was designed as a collapsible menu from heading on larger screen sizes above mobile to allow for ease of navigation with cluttering the simplicity of the aesthetics.
 * As per the clients request the menu was a "burger" menu on smaller devices and a concious decision was made by the client to not utilise a collapsible menu on the site to not have the site seem overly "busy".<!-- finsih-->
 
 ## Rendering on different screen sizes
