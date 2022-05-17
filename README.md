@@ -250,6 +250,9 @@ However slightly adjusting the colour contrast by amending the css stylesheet al
 * When completing the layout for the basket.html view I encountered and issue whereby I had an error being shown in debug view highligting the endblock stating thaty there was an endfor or endif block statement missing within the file. This was due not to being missing but they had been put into the wrong positions and when swapped the page loaded as required.
 * When rendering the basket.html page an error was displayed stating that there was an error in the view_basket view resulting in an image file being unsubscriptable. This was rectified by adding an if/else statement withing the basket.html template to display an image if available or if not to default to the placeholder image.
 * When creating the blogpost app I realised that I had not accounted for the relationship to the user models for which the profile app had not been created. Not quite a bug but more a learning for how to approach the app order in future.
+* The exposed postgres URI was accidentally pushed to the repo, but that database was destroyed and a new one created.
+* The above had to be done again as when creating a heroku app vis the CLI by default the wrong region was set so the app was then created on the Heroku dashboard and the connected vis the CLI for deployment subsequent pushes.
+* After deploying to Heroku when running the port 8000 development there was an error stating "SECRET_KEY cannot be empty" so DEVELOPMENT was set back to true and the delployed secret key added back to settings until final deployment when new one was generated so any secret key in commit historys would be irrelevant and no longer valid.
 
 ## Deployment & setting up Postgres DB
 * On the home screen click on create new app

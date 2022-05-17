@@ -9,7 +9,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-5 offset-4">
-            <h1 class="edit-blog-title-heading my-3">Edit a Blog Post</h1>
+            <h1 class=>Edit a Blog Post</h1>
         </div>
     </div>
     <div class="row">
@@ -24,7 +24,7 @@
                                 <button class="btn btn-black rounded-0 text-uppercase mt-5" type="submit">Update Post</button>
                             </div>
                             <div class="col">
-                                <a href="{% url 'post_detail' post.slug %}" class="btn cancel-post-update-button">
+                                <a href="{% url 'post_detail' post.slug %}" class="btn btn-danger rounded-0">
                                     Cancel
                                 </a>
                             </div>

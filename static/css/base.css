@@ -161,7 +161,7 @@ input[name='q']::placeholder {
     /* btn */
     display: inline-block;
     font-weight: 400;
-    color: #fdfffc;
+    color: #fdfffc !important;
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
@@ -181,7 +181,7 @@ input[name='q']::placeholder {
 
 .allauth-form-inner-content button:hover,
 .allauth-form-inner-content input[type='submit']:hover {
-    color: #fdfffc;
+    color: #fdfffc !important;
     background-color: #2ec4b6;
     border-color: #222;
 }
