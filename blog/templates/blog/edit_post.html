@@ -6,33 +6,36 @@
 {% endblock %}
 
 {% block content %}
-<div class="container-fluid">
+<div class="container first-container">
     <div class="row">
-        <div class="col-5 offset-4">
-            <h1 class=>Edit a Blog Post</h1>
+        <div class="col-12 col-md-6">
+            <hr>
+            <h2 class="logo-font mb-4 text-hair text-center">Edit a Blog Post</h2>
+            <hr>
         </div>
     </div>
-    <div class="row">
-        <div class="col-9 offset-2">
-            <div class="card my-5">
-                <div class="card-body">
-                    <form action="{% url 'edit_post' post.slug %}" method="POST">
-                        {% csrf_token %}
-                        {{ form | crispy }}
-                        <div class="row">
-                            <div class="col">
-                                <button class="btn btn-black rounded-0 text-uppercase mt-5" type="submit">Update Post</button>
-                            </div>
-                            <div class="col">
-                                <a href="{% url 'post_detail' post.slug %}" class="btn btn-danger rounded-0">
-                                    Cancel
-                                </a>
-                            </div>
+</div>
+<div class="row">
+    <div class="col-9 offset-2">
+        <div class="card my-5">
+            <div class="card-body">
+                <form action="{% url 'edit_post' post.slug %}" method="POST">
+                    {% csrf_token %}
+                    {{ form | crispy }}
+                    <div class="row">
+                        <div class="col">
+                            <button class="btn btn-black rounded-0 text-uppercase" type="submit">Update Post</button>
                         </div>
-                    </form>
-                </div>
+                        <div class="col">
+                            <a href="{% url 'post_detail' post.slug %}" class="btn btn-danger rounded-0">
+                                Cancel
+                            </a>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
+</div>
 </div>
 {% endblock %}

@@ -6,10 +6,10 @@
 {% endblock %}
 
 {% block content %}
-<div class="container-fluid">
+<div class="container-fluid first-container">
     <div class="row my-4">
         <div class="col-12">
-            <a href="{% url 'blog' %}" class="button back-to-homepage-button">
+            <a href="{% url 'blog' %}" class="btn btn-outline-black rounded-0 mt-5">
                 <i class="fas fa-chevron-left"></i> Back to blog homepage</a>
         </div>
     </div>
@@ -33,7 +33,7 @@
                     {% if post.author == request.user %}
                     <div class="row">
                         <div class="col">
-                            <a href="{% url 'edit_post' post.slug %}" class="btn btn-black rounded-0 text-uppercase mt-5">Edit Post</a>
+                            <a href="{% url 'edit_post' post.slug %}" class="btn btn-black rounded-0 text-uppercase">Edit Post</a>
                         </div>
                         <div class="col">
                             <!-- Button trigger modal -->
@@ -111,7 +111,7 @@
                             <div class="control">
                                 <div class="row">
                                     <div class="col">
-                                        <button class="btn btn-black rounded-0 text-uppercase mt-5">Submit</button>
+                                        <button class="btn btn-black rounded-0 text-uppercase">Submit</button>
                                     </div>
                                     <div class="col">
                                         <button type="reset" class="btn btn-danger rounded-0">Reset</button>
