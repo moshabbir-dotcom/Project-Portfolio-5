@@ -1,4 +1,5 @@
-from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse
+from django.shortcuts import (render, redirect,
+                              reverse, get_object_or_404, HttpResponse)
 from django.views.decorators.http import require_POST
 from django.contrib import messages
 from django.conf import settings
@@ -13,6 +14,7 @@ import stripe
 import json
 
 # Create your views here.
+
 
 @require_POST
 def cache_checkout_data(request):
@@ -29,6 +31,7 @@ def cache_checkout_data(request):
         messages.error(request, 'Sorry, payment cannot be processed.\
             Please try again later.')
         return HttpResponse(content=e, status=400)
+
 
 def checkout(request):
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
@@ -74,9 +77,9 @@ def checkout(request):
                     order.delete()
                     return redirect(reverse('view_basket'))
 
-
             request.session['save_info'] = 'save-info' in request.POST
-            return redirect(reverse('checkout_success', args=[order.order_number]))
+            return redirect(reverse('checkout_success',
+                            args=[order.order_number]))
         else:
             messages.error(request, 'Form submission error!. \
                 Please double check information being submitted.')
@@ -128,6 +131,7 @@ def checkout(request):
     }
 
     return render(request, template, context)
+
 
 def checkout_success(request, order_number):
     """
