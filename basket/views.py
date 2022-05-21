@@ -1,4 +1,5 @@
-from django.shortcuts import render, redirect, reverse, HttpResponse, get_object_or_404
+from django.shortcuts import (render, redirect, reverse,
+                              HttpResponse, get_object_or_404)
 from django.contrib import messages
 from products.models import Product
 
@@ -21,17 +22,21 @@ def add_to_basket(request, item_id):
 
     if item_id in list(basket.keys()):
         basket[item_id] += quantity
-        messages.success(request, f'The amount of {product.name} in your basket has been changed to {basket[item_id]}!')
+        messages.success(request,
+                         f'The amount of {product.name} in your basket has \
+                          been changed to {basket[item_id]}!')
     else:
         basket[item_id] = quantity
-        messages.success(request, f'{product.name} was successfully added to your basket!')
+        messages.success(request, f'{product.name}\
+                         was successfully added to your basket!')
 
     request.session['basket'] = basket
     return redirect(redirect_url)
 
 
 def amend_basket(request, item_id):
-    """ The view which amends the user defined quantity of a particular product to the basket """
+    """ The view which amends the user defined \
+        quantity of a particular product to the basket """
 
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
@@ -39,10 +44,12 @@ def amend_basket(request, item_id):
 
     if quantity > 0:
         basket[item_id] = quantity
-        messages.success(request, f'The amount of {product.name} in your basket has been changed to {basket[item_id]}!')
+        messages.success(request, f'The amount of {product.name} in your basket \
+                         has been changed to {basket[item_id]}!')
     else:
         basket.pop(item_id)
-        messages.success(request, f'{product.name} was successfully removed from your basket!')
+        messages.success(request, f'{product.name} was successfully \
+                         removed from your basket!')
 
     request.session['basket'] = basket
     return redirect(reverse('view_basket'))
@@ -56,7 +63,8 @@ def remove_from_basket(request, item_id):
         basket = request.session.get('basket', {})
 
         basket.pop(item_id)
-        messages.success(request, f'{product.name} was successfully removed from your basket!')
+        messages.success(request, f'{product.name} was successfully \
+                         removed from your basket!')
 
         request.session['basket'] = basket
         return HttpResponse(status=200)

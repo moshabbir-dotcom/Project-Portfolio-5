@@ -39,7 +39,7 @@
                     {% for item in basket_items %}
                     <tr>
                         <td class="p-3 w-25">
-                            {% if product.image %}
+                            {% if item.product.image %}
                             <img class="img-fluid rounded" src="{{ item.product.image.url }}">
                             {% else %}
                             <img class="img-fluid rounded" src="{{ MEDIA_URL }}noimage.jpg" alt="{{ product.name }}">
@@ -135,7 +135,7 @@
     // Update quantity of item when clicked
     $('.update-link').click(function(e) {
         var form = $(this).prev('.update-form');
-        form.submit();
+        form[0].requestSubmit();
     })
 
     // Remove quantity of item when clicked
