@@ -9,7 +9,7 @@
 <div class="container-fluid first-container">
     <div class="row my-4">
         <div class="col-12">
-            <a href="{% url 'blog' %}" class="btn btn-outline-black rounded-0 mt-5">
+            <a href="{% url 'blog' %}" class="btn btn-outline-black rounded-0 mt-5 text-uppercase">
                 <i class="fas fa-chevron-left"></i> Back to blog homepage</a>
         </div>
     </div>
@@ -18,7 +18,7 @@
             <div class="card blog-card">
                 <div class="card-body">
                     <div class="card-title">
-                        <h1 class="title-heading-small blog-title">{{ post.title }}</h1>
+                        <h1 class="title-heading-small blog-title text-uppercase">{{ post.title }}</h1>
                     </div>
                 </div>
                 <div class="card-text blog-card-content">
@@ -33,11 +33,8 @@
                     {% if post.author == request.user %}
                     <div class="row">
                         <div class="col">
-                            <a href="{% url 'edit_post' post.slug %}" class="btn btn-black rounded-0 text-uppercase">Edit Post</a>
-                        </div>
-                        <div class="col">
                             <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-danger rounded-0" data-toggle="modal" data-target="#delete-{{product.sku}}">
+                            <button type="button" class="btn btn-danger rounded-0 text-uppercase" data-toggle="modal" data-target="#delete-{{product.sku}}">
                                 Delete
                             </button>
                             <!-- Modal -->
@@ -59,12 +56,15 @@
                                             <p class="text-danger">This action cannot be undone!!!</p>
                                         </div>
                                         <div class="modal-footer">
-                                            <a class="btn text-danger blog-modal-delete-button" href="{% url 'delete_post' post.slug %}">Delete</a>
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                            <a class="btn text-danger blog-modal-delete-button text-uppercase" href="{% url 'delete_post' post.slug %}">Delete</a>
+                                            <button type="button" class="btn btn-secondary text-uppercase" data-dismiss="modal">Cancel</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="col">
+                            <a href="{% url 'edit_post' post.slug %}" class="btn btn-black rounded-0 text-uppercase">Edit Post</a>
                         </div>
                     </div>
                     {% else %}
@@ -82,7 +82,7 @@
             <div class="card mb-5 comments">
                 <div class="card-body">
                     <div class="card-title">
-                        <h2 class="title-heading-small">Comments about {{ post.title }}</h2>
+                        <h1 class="title-heading-small blog-title text-uppercase">Comments about {{ post.title }}</1>
                     </div>
                 </div>
                 <div class="card-text py-3">
@@ -111,10 +111,10 @@
                             <div class="control">
                                 <div class="row">
                                     <div class="col">
-                                        <button class="btn btn-black rounded-0 text-uppercase">Submit</button>
+                                        <button type="reset" class="btn btn-danger rounded-0 text-uppercase">Reset</button>
                                     </div>
                                     <div class="col">
-                                        <button type="reset" class="btn btn-danger rounded-0">Reset</button>
+                                        <button class="btn btn-black rounded-0 text-uppercase">Submit</button>
                                     </div>
                                 </div>
                             </div>

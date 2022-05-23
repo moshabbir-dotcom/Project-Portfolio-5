@@ -34,6 +34,7 @@ body {
     min-width: 260px;
 }
 
+
 .btn-black {
     background: #011627;
     color: #fdfffc;
@@ -89,7 +90,7 @@ body {
     z-index: -1;
 }
 
-/* .title-view {
+.title-view {
     height: auto;
 }
 
@@ -109,7 +110,7 @@ body {
     .title-view {
         height: 165px;
     }
-} */
+}
 
 .first-container {
     margin-top: auto;
@@ -344,4 +345,17 @@ input[name='q']::placeholder {
     body {
         height: calc(100vh - 116px);
     }
+}
+
+.social-media {
+    font-size: 48px !important;
+}
+
+.newsletter-link {
+    color: #007bff;
+}
+
+.newsletter-link:hover {
+    color: #2ec4b6;
+    text-decoration: none;
 }

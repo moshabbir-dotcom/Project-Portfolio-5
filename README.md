@@ -253,6 +253,7 @@ However slightly adjusting the colour contrast by amending the css stylesheet al
 * The exposed postgres URI was accidentally pushed to the repo, but that database was destroyed and a new one created.
 * The above had to be done again as when creating a heroku app vis the CLI by default the wrong region was set so the app was then created on the Heroku dashboard and the connected vis the CLI for deployment subsequent pushes.
 * After deploying to Heroku when running the port 8000 development there was an error stating "SECRET_KEY cannot be empty" so DEVELOPMENT was set back to true and the delployed secret key added back to settings until final deployment when new one was generated so any secret key in commit historys would be irrelevant and no longer valid.
+* When setting the url for the newsletter subscription page there was an error generated where the url pattern defined was looking for a slug within the which was not relevant for this particular page, (as would have been the case for the CRUD functions within the blog app). This was fixed by setting the url pattern for blog/newsletter to BEFORE those requiring a slug and the page was then rendered without issue.
 
 ## Deployment & setting up Postgres DB
 * On the home screen click on create new app

@@ -7,6 +7,7 @@ from .forms import CommentForm, PostForm, NewsletterForm
 
 # Create your views here.
 
+
 def blog(request):
     posts = Post.objects.all()
     template = 'blog/blog.html'
@@ -14,6 +15,7 @@ def blog(request):
         'posts': posts
     }
     return render(request, template, context)
+
 
 def newsletter(request):
     form = NewsletterForm()

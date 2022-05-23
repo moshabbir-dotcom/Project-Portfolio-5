@@ -13,6 +13,7 @@ class PostForm(forms.ModelForm):
         model = Post
         fields = ['title', 'content']
 
+
 class NewsletterForm(forms.ModelForm):
     class Meta:
         model = Newsletter
