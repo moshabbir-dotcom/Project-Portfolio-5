@@ -38,3 +38,14 @@ class Comment(models.Model):
         User, on_delete=models.CASCADE, related_name="comment", default=1)
     comment = models.TextField()
     date_added = models.DateTimeField(auto_now_add=True)
+
+# newsletter model
+class Newsletter(models.Model):
+    email = models.EmailField(max_length=50, null=False, blank=False, unique=True)
+    date_added = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ['-date_added']
+
+    def __str__(self):
+        return self.email

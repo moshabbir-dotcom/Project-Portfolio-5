@@ -3,7 +3,7 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 
 from .models import Post
-from .forms import CommentForm, PostForm
+from .forms import CommentForm, PostForm, NewsletterForm
 
 # Create your views here.
 
@@ -13,6 +13,21 @@ def blog(request):
     context = {
         'posts': posts
     }
+    return render(request, template, context)
+
+def newsletter(request):
+    form = NewsletterForm()
+    if request.method == "POST":
+        form = NewsletterForm(request.POST)
+        if form.is_valid():
+            form.save()
+
+    template = 'blog/newsletter.html'
+    context = {
+        'form': form
+    }
+
+    messages.success(request, "Successfully added email address")
     return render(request, template, context)
 
 
