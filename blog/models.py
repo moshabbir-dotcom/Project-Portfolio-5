@@ -39,9 +39,11 @@ class Comment(models.Model):
     comment = models.TextField()
     date_added = models.DateTimeField(auto_now_add=True)
 
+
 # newsletter model
 class Newsletter(models.Model):
-    email = models.EmailField(max_length=50, null=False, blank=False, unique=True)
+    email = models.EmailField(max_length=50, null=False,
+                              blank=False, unique=True)
     date_added = models.DateTimeField(auto_now_add=True)
 
     class Meta:

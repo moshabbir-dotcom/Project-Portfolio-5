@@ -23,13 +23,13 @@ def newsletter(request):
         form = NewsletterForm(request.POST)
         if form.is_valid():
             form.save()
+            messages.success(request, "Successfully added email address...")
 
     template = 'blog/newsletter.html'
     context = {
         'form': form
     }
 
-    messages.success(request, "Successfully added email address")
     return render(request, template, context)
 
 
