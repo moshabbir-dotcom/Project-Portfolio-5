@@ -7,8 +7,40 @@ As the company is only starting a digital offering they require a website with a
 The aim is to build a website where users may be able to make and amend orders but where unregistered users also have an option to purchase. It would also require a facility for the site administrator to be able to quickly and easily amend and update product and departmental listings.
 
 ## User Experience
-### User & Site Owner Goals
-* Please see the project and issue planning tracker using Github's project planning function and can be found [HERE](https://github.com/moshabbir-dotcom/Project-Portfolio-5/projects/1) or a screenshot of completion [HERE](media/User_Stories_Complete.png)
+### User Stories
+* As a user I can view a list of items so that some can be selected for purchase.
+* As a user I can view individual item specifics so that details of the item can be obtained before purchase.
+* As a user I can view running total of spending so that make an informed purchase within budget.
+* As a user I can sort items so that view items by price and/or department.
+* As a user I can sort departments so that items relevant only to that department are displayed.
+* As a user I can search items so that find a specific item within the catalogue with ease.
+* As a user I can view search results so that the results of my search are accurate.
+* As a user I can search related departments so that similar items within departments can be displayed.
+* As a user I can select quantity of items so that an incorrect amount are not purchased.
+* As a user I can view basket so that I can be sure of what I am purchasing.
+* As a user I can amend basket so that I can change my order before payment if I require.
+* As a user I can make payment so that I am able to purchase easily.
+* As a user I can view order confirmation so that verify my purchase has been successful.
+* As a user I can receive email confirmation so that I can have a record of my purchase.
+* As a user I can ensure payment security on checkout so that I am comfortable providing payment details.
+* As a user I can register account so that I can have a personal account to view my activity.
+* As a user I can signin/signout so that access my personal account.
+* As a user I can have a personal profile so that I can view my order history, confirmations, save payment information, blogs and comments.
+* As a user I can receive email confirmation on registering so that I am aware my registration was completed successfully.
+* As a user I can reset password so that I can recover site access.
+* As a user I can add blog so that I can publish an article for others to see.
+* As a user I can edit blog so that make amendments to what I have published on the site.
+* As a user I can view blogs so that I can see what others have published on the site.
+* As a user I can delete blogs so that I can remove blogs I have already published.
+* As a user I can comment on blogs so that I can publish a response to what others have published.
+
+### Site Owner Goals
+* As a site owner I can add items to product list so that I can grow the website listings.
+* As a site owner I can update items so that I can amend items listed on the site.
+* As a site owner I can delete items so that website item listing remains accurate.
+* As a site owner I can obtain users emails addresses with opting in to aid in email marketing activity.
+
+* The project was transferred from a manual kanban tracker to a digital format using Github's project planning function and can be found [HERE](https://github.com/moshabbir-dotcom/Project-Portfolio-5/projects/1) or a screenshot of completion [HERE](media/User_Stories_Complete.png)
 
 ## Wireframe
 * The basic wireframe design was put together with the client with a few preference as to how the site was visualised and on discussion it was possible to identify a few points to work towards with an element of flexibility around visuals to be reviewed at the end of every sprint. 
@@ -36,12 +68,11 @@ The points pulled from the wireframes were:
 **NAME** [Bootstrap2]()
 
 ## Design
-* The colour scheme was chosen by the site owner from a colour pallette hosted on a website called Coloors available on [Coloors](https://coolors.co/). The website has mutiple complimenting colour palettes which can be selected as a base selection of colours or mixed and matched as required. On submission this will continue to be a working project and will be cloned into a new respository for continuing work.
+### Colours
+* The colour scheme was chosen by the site owner from a colour pallette hosted on a website called Coloors available on [Coloors](https://coolors.co/). The website has mutiple complimenting colour palettes which can be selected as a base selection of colours or mixed and matched as required. On submission this will continue to be a working project and will be cloned into a new respository for continuing work. The selected colour scheme can be seen [HERE] () where 4 of the 5 hero colours were utilised in addition to the bootstrap default colours for banners to maintain the minimalist look of the site.
 
 ### Fonts
 * The fonts as per the template are "Akshar" & "sans-serif" as the backup font. Fonts would remain relatively consistent in the event the site is viewed on different devices with the font sans-serif being available on all devices.
-### Colours
-* The font was chosen by the site owner due to its clean contrast between colour combinations which were simple & warm conveying the relaxing enviroment of the clinic itself. It will allow for the official trademarked branding to be added at a later date as well as copyrighted photographs whilst remaining aesthitically pleasing. This was tested as part of the template selection process however for this project stock images have been used to not infringe on copyright.<!-- finsih-->
 
 The contrast checking on the website showed 7 failed colour contrast pairs although this was an automated check and the checking site states <em>"Automatic programs such as this cannot analyze text embedded in images and may misdiagnose or ignore certain critical issues. We recommend that you combine contrast testing results from this website with a manual test performed by a trained accessibility expert."</em> With this in mind it is important to note that all issues raised were related to text within images so a recommendation would be to perform an accessibility analysis by a trained professional to ensure and prove digital compliance before the JA Therapies site is hosted in the public domain. [Bureau of Internet Accessibility](https://www.boia.org/)
 <!-- finsih-->
