@@ -59,27 +59,14 @@ The points pulled from the wireframes were:
 * The menu and logo would fit convention standards with a "burger" menu for smaller screen sizes.
 * Quick link options for search as part of a dropdown menu.
 
-* With these defined it was a matter of using bootstrap to customise the visuals of the site although using a bootstrap template would also have been an option. These were looked at with the client in order to understand what "look" the site owners were after. Pages from allauth were then customised to fit the requirements of the client with regards to visual aesthetic of the trest of the site both in HTML design and CSS styling.
-
-* The design that fit the clients'preferences were:
-
-**NAME** [Bootstrap1]()
-
-**NAME** [Bootstrap2]()
+* With these defined it was a matter of using bootstrap to customise the visuals of the site although using a bootstrap template would also have been an option. These were looked at with the client in order to understand what "look" the site owners were after. Pages from allauth were then customised to fit the requirements of the client with regards to visual aesthetic of the trest of the site both in HTML design and CSS styling. <!--FINISH-->
 
 ## Design
 ### Colours
 * The colour scheme was chosen by the site owner from a colour pallette hosted on a website called Coloors available on [Coloors](https://coolors.co/). The website has mutiple complimenting colour palettes which can be selected as a base selection of colours or mixed and matched as required. On submission this will continue to be a working project and will be cloned into a new respository for continuing work. The selected colour scheme can be seen [HERE] () where 4 of the 5 hero colours were utilised in addition to the bootstrap default colours for banners to maintain the minimalist look of the site.
-
+* The contrast checking on the [a11y](https://color.a11y.com/Contrast/) website showed NO contrast issues although this was an automated check and the checking site states <em>"Automatic programs such as this cannot analyze text embedded in images and may misdiagnose or ignore certain critical issues. We recommend that you combine contrast testing results from this website with a manual test performed by a trained accessibility expert."</em> With this in mind it is important to note that in the event any issues were found and raised it would be a recommendation to have an accessibility analysis performed by a trained professional to ensure and prove digital compliance before the ecommerce site would hosted in the public domain. [Bureau of Internet Accessibility](https://www.boia.org/) Evidence of the contrats check is [HERE]().
 ### Fonts
 * The fonts as per the template are "Akshar" & "sans-serif" as the backup font. Fonts would remain relatively consistent in the event the site is viewed on different devices with the font sans-serif being available on all devices.
-
-The contrast checking on the website showed 7 failed colour contrast pairs although this was an automated check and the checking site states <em>"Automatic programs such as this cannot analyze text embedded in images and may misdiagnose or ignore certain critical issues. We recommend that you combine contrast testing results from this website with a manual test performed by a trained accessibility expert."</em> With this in mind it is important to note that all issues raised were related to text within images so a recommendation would be to perform an accessibility analysis by a trained professional to ensure and prove digital compliance before the JA Therapies site is hosted in the public domain. [Bureau of Internet Accessibility](https://www.boia.org/)
-<!-- finsih-->
-However slightly adjusting the colour contrast by amending the css stylesheet allowed the test to pass:
-* Before: [FAIL](https://github.com/moshabbir-dotcom/Portfolio-Project-4/blob/1c98200a9541fa5c0546035cc394269ee2562be2/media/images/ContrastFail.png)<!-- finsih-->
-
-* After: [PASS](https://github.com/moshabbir-dotcom/Portfolio-Project-4/blob/1c98200a9541fa5c0546035cc394269ee2562be2/media/images/ContrastPass.png)<!-- finsih-->
 
 ## Technologies
 ### Languages
@@ -143,19 +130,21 @@ However slightly adjusting the colour contrast by amending the css stylesheet al
 * [Login]
 * [Logout]
 * [Signup]
-### CSS <!-- finsih-->
-* The bulk of the CSS was from the bootstrap template provided by the CI walkthrough however this was customised in order to fulfill marking criteria and adhere to the colour scheme selected and passed validation which is evidenced [HERE].
-### JavaScript<!-- finsih-->
-* 
+### CSS
+* The bulk of the CSS was from the bootstrap template provided by the CI walkthrough however this was customised in order to fulfill marking criteria and adhere to the colour scheme selected and passed validation which is evidenced for each respective CSS style sheet below:
+* [STYLE.CSS]()
+* [CHECKOUT.CSS]()
+* [BLOG.CSS]()
+* [PROFILE.CSS]()
+### JavaScript
+* Javascript was taken from the CI walkthrough and modified in places.
 ### Python <!-- finsih-->
-* All Python code was tested through a PEP8 validator and passed even though the pylint module in some occasions reported errors. The evidence of validation is below:
-* [Admin.py](https://github.com/moshabbir-dotcom/Portfolio-Project-4/blob/39853abb1ee53aea7edad976d9eb1e1274e60a7f/media/images/Admin.png)
-* [Forms.py](https://github.com/moshabbir-dotcom/Portfolio-Project-4/blob/39853abb1ee53aea7edad976d9eb1e1274e60a7f/media/images/Forms.png)
-* [Models.py](https://github.com/moshabbir-dotcom/Portfolio-Project-4/blob/39853abb1ee53aea7edad976d9eb1e1274e60a7f/media/images/Models.png)
-* [Settings.py](https://github.com/moshabbir-dotcom/Portfolio-Project-4/blob/39853abb1ee53aea7edad976d9eb1e1274e60a7f/media/images/Settings.png)
-* [Tests.py](https://github.com/moshabbir-dotcom/Portfolio-Project-4/blob/39853abb1ee53aea7edad976d9eb1e1274e60a7f/media/images/Tests.png)
-* [Urls.py](https://github.com/moshabbir-dotcom/Portfolio-Project-4/blob/39853abb1ee53aea7edad976d9eb1e1274e60a7f/media/images/Urls.png)
-* [Views.py](https://github.com/moshabbir-dotcom/Portfolio-Project-4/blob/39853abb1ee53aea7edad976d9eb1e1274e60a7f/media/images/Views.png)
+* All Python code was tested through an external PEP8 validator and passed even though the pylint module in some occasions reported errors. The evidence of PEP8 validation being adhered to on the files that showed these errors is below:
+* [Product Views]()
+* [Profile Views]()
+* [Home Views]()
+* [Checkout Views]()
+* [Blog Views]()
 
 ### Bugs
 * When attempting to add the "sort" functions in the products views it resulted in an error stating that the view could not return a sort by department. This was due to me filtering by using category name which I had registered in my product model causing confusion. To rectify this I changed the name of the field to "department" and adjusted the filtering code to also refer to department in order to maintain consistency in development.
