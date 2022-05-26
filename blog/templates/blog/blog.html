@@ -18,8 +18,8 @@
     <div class="row">
         {% for post in posts %}
         <div class="col-lg-4 col-md-6 col-sm-6">
-            <div class="card blog-card my-5">
-                <div class="card-body">
+            <div class="card blog-card my-5 box-shadow">
+                <div class="card-body-with-padding">
                     <div class="card-title">
                         <a href="{% url 'post_detail' post.slug %}" class="title-heading-small blog-title">
                             {{ post.title | truncatechars:15 | capfirst }}

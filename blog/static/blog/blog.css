@@ -18,6 +18,12 @@
     text-align: center;
 }
 
+.card-body-with-padding {
+    background-color: #011627 !important;
+    text-align: center;
+    padding: 1.25rem;
+}
+
 .blog-title {
     color: #fdfffc;
 }

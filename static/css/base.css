@@ -321,6 +321,14 @@ input[name='q']::placeholder {
     border-radius: 0;
 }
 
+.navbar-2 {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
 /* fixed top navbar for medium screens and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
@@ -347,6 +355,17 @@ input[name='q']::placeholder {
     }
 }
 
+.nav-link {
+    padding: 0.5rem 0rem;
+}
+
+@media (min-width: 450px) {
+    .nav-link {
+        padding: 0.5rem 1rem;
+    }
+
+}
+
 .social-media {
     font-size: 48px !important;
 }
@@ -358,4 +377,18 @@ input[name='q']::placeholder {
 .newsletter-link:hover {
     color: #2ec4b6;
     text-decoration: none;
+}
+
+.card {
+    padding: 1.25rem;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0px 10px 33px 10px rgba(1, 22, 39, 0.5);
+    -moz-box-shadow: 0px 10px 33px 10px rgba(1, 22, 39, 0.5);
+    box-shadow: 0px 10px 33px 10px rgba(1, 22, 39, 0.5);
 }
