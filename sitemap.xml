@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/blog/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/accounts/signup/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/accounts/login/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/basket/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/?sort=price&amp;direction=asc</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/?sort=department&amp;direction=asc</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/?department=anti_ageing</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/?department=dry_sensitive</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/?department=oily</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/?department=skin_conditioning</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/?department=bathtime</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/?department=anti_ageing,dry_sensitive,oily,bathtime,skin_conditioning</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/?department=hair_growth</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/?department=hair_conditioning</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/?department=beardcare</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/?department=hair_growth,hair_conditioning,beardcare</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/?department=skincare_accessories</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/?department=haircare_accessories</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/?department=skincare_accessories,haircare_accessories</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/accounts/login/?next=/blog/tester-this-is-a-user-post/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/accounts/login/?next=/blog/test-post-3/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/accounts/login/?next=/blog/test-post-2/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/accounts/login/?next=/blog/test-post-1/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/accounts/login/?next=/blog/add_post/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/accounts/password/reset/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/6/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/27/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/12/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/23/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/7/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/24/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/11/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/22/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/9/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/8/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/16/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/26/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/20/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/10/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/29/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/1/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/4/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/17/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/21/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/28/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/14/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/3/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/2/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/5/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/18/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/25/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/19/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/15/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/products/13/</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/accounts/signup/?next=%2Fblog%2Ftester-this-is-a-user-post%2F</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/accounts/signup/?next=%2Fblog%2Ftest-post-3%2F</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/accounts/signup/?next=%2Fblog%2Ftest-post-2%2F</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/accounts/signup/?next=%2Fblog%2Ftest-post-1%2F</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/accounts/signup/?next=%2Fblog%2Fadd_post%2F</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/accounts/login/?next=%2Fblog%2Ftester-this-is-a-user-post%2F</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/accounts/login/?next=%2Fblog%2Ftest-post-3%2F</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/accounts/login/?next=%2Fblog%2Ftest-post-2%2F</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/accounts/login/?next=%2Fblog%2Ftest-post-1%2F</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://aljild-walshier.herokuapp.com/accounts/login/?next=%2Fblog%2Fadd_post%2F</loc>
+  <lastmod>2022-05-26T15:49:05+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
+</urlset>

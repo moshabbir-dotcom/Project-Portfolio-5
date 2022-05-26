@@ -42,7 +42,7 @@ The aim is to build a website where users may be able to make and amend orders b
 
 * The project was transferred from a manual kanban tracker to a digital format using Github's project planning function and can be found [HERE](https://github.com/moshabbir-dotcom/Project-Portfolio-5/projects/1) or a screenshot of completion [HERE](media/User_Stories_Complete.png)
 
-## Wireframe
+## Wireframe <!--FINISH>
 * The basic wireframe design was put together with the client with a few preference as to how the site was visualised and on discussion it was possible to identify a few points to work towards with an element of flexibility around visuals to be reviewed at the end of every sprint. 
 
 ### Desktop
@@ -98,7 +98,7 @@ The points pulled from the wireframes were:
 ## Features
 ### Navigation
 * The navigation bar was designed as a collapsible menu from heading on larger screen sizes above mobile to allow for ease of navigation with cluttering the simplicity of the aesthetics.
-* As per the clients request the menu was a "burger" menu on smaller devices and a concious decision was made by the client to not utilise a collapsible menu on the site to not have the site seem overly "busy".<!-- finsih-->
+* The menu was a combination of "burger" menu on smaller devices in additon to the heading icons to allow for ease of UX
 
 ## Rendering on different screen sizes
 ### Home
@@ -118,18 +118,29 @@ The points pulled from the wireframes were:
 
 ## Code validation & Testing
 ### Testing
-* <!-- finsih-->
+* The website was tested for functionality on edge, firefox, chrome & safari browsers across Samsung S10+, S22 ultra, iPhone 11+, Macbook pro HP Pavilion & HP Spectre devices each running an operating system from macOS 12, windows 10 & 11, android and iOS 15.
+* Automated testing was not used for this project although manual testing principles were followed in testing functionality aspects of the website and proof of such is evidenced through screengrabs of the UX interface notifactions shown below:
+[TEST_ADD_COMMENT]()
+[TEST_ADD_POST]()
+[TEST_ADD_PRODUCT]()
+[TEST_AMEND+-_PRODUCT]()
+[TEST_AMENDBASKET_PRODUCT]()
+[TEST_EDIT_PRODUCT]()
+[TEST_EDIT_POST]()
+[TEST_EDITED_POST]()
+[TEST_CLEAR_BASKET]()
+[TEST_SIGNIN]()
+[TEST_SORT_AZ]()
+[TEST_SORT_DEPT_AZ]()
+[TEST_SORT_PRICE]()
+[TEST_SORT_ZA]()
+[TEST_UPDATE_PRODUCT]()
+[TEST_UPDATE_USER]()
+[TEST_VIEW_ORDER_DETAIL]()
+[TEST_VIEW_ORDERS]()
 
 ### HTML <!-- finsih-->
-* All HTML pages were tested via URL input and passed validation before submission. Links to validation evidence is below.
-* [Home](https://github.com/moshabbir-dotcom/Portfolio-Project-4/blob/5e60e111a5041675f93b33352599d8254d0fefc0/media/images/HomePASShtml.png)
-* [About]
-* [Prices]
-* [Booking]
-* [Contact]
-* [Login]
-* [Logout]
-* [Signup]
+* All HTML pages were tested via URL input and passed validation before submission. Errors were displayed on the validation pages however these were due to the the jinja templating language used in python triggering error warnings in the HTML validator.
 ### CSS
 * The bulk of the CSS was from the bootstrap template provided by the CI walkthrough however this was customised in order to fulfill marking criteria and adhere to the colour scheme selected and passed validation which is evidenced for each respective CSS style sheet below:
 * [STYLE.CSS]()
@@ -138,7 +149,7 @@ The points pulled from the wireframes were:
 * [PROFILE.CSS]()
 ### JavaScript
 * Javascript was taken from the CI walkthrough and modified in places.
-### Python <!-- finsih-->
+### Python
 * All Python code was tested through an external PEP8 validator and passed even though the pylint module in some occasions reported errors. The evidence of PEP8 validation being adhered to on the files that showed these errors is below:
 * [Product Views]()
 * [Profile Views]()
@@ -171,4 +182,9 @@ The points pulled from the wireframes were:
 The program is set to be deployed automatically manually after each push from gitpod since the heroku security breach. This ensures the website is running before a deployment with minor changes to it could potentially create an issue and this way allows for more control. It is done but logging in via the CLI and connecting to the relevant repo and pushing to github and heroku seperatley with <em>git push origin main</em> & <em>git push heroku main</em> respectively.
 
 ### Credits
-* <!-- finsih-->
+* Django tutorial videos from Codemy.com
+* Bim Williams, Manny Silva & Adil Bashir.
+Allauth templates were provided to me by Daisy as my initial ones caused button clicks to go to the wrong urls. She also provided me with the code that allowed DEBUG to be true in development and advice on having static files accessed from different sources depending on whether in DEVELOPMENT or not.
+The bootstrap template came with CSS and JS files which were adapted however bespoke code that was written has been marked seperately in the ActiveNavLink.js file and at the bottom of the style.css file.
+Business name and treatment offers belong to JA Therapies.
+Lastly my new mentor Chris Quinn who sent me the documentation for white noise.
