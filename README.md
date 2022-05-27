@@ -45,11 +45,21 @@ The aim is to build a website where users may be able to make and amend orders b
 ## Wireframe <!--FINISH>
 * The basic wireframe design was put together with the client with a few preference as to how the site was visualised and on discussion it was possible to identify a few points to work towards with an element of flexibility around visuals to be reviewed at the end of every sprint. 
 
-### Desktop
-[Desktop]()
+### Desktop 1024px
+* [Desktop]()
+* [Desktop Blog]()
+* [Desktop Checkout]()
 
-### Mobile
-[Mobile]()
+### Tablet 768px
+* [Tablet]()
+* [Tablet Blog]()
+* [Tablet Checkout]()
+
+### Mobile 375px
+* 375px was selected as minimimum screen size to cater for mobiles as that is the average entry screen size for smartphones.
+* [Mobile]()
+* [Mobile Blog]()
+* [Mobile Checkout]()
 
 
 
@@ -101,20 +111,25 @@ The points pulled from the wireframes were:
 * The menu was a combination of "burger" menu on smaller devices in additon to the heading icons to allow for ease of UX
 
 ## Rendering on different screen sizes
-### Home
-* [HomeMobile]()<!-- finsih-->
+* Below are examples of varying screen sizes of the same pages for different devices.
+### Desktop 1024px
+* [Desktop Home]()
+* [Desktop Blog]()
+* [Desktop Checkout]()
+* [Desktop Products]()
 
-### About
-* [TestemonialMobile]()<!-- finsih-->
+### Tablet 768px
+* [Tablet Home]()
+* [Tablet Blog]()
+* [Tablet Checkout]()
+* [Tablet Products]()
 
-### Treatments & Prices
-* [TherapiesMobile]()<!-- finsih-->
-
-### Contact
-* <!-- finsih-->
-
-### Booking
-* <!-- finsih-->
+### Mobile 375px
+* 375px was selected as minimimum screen size to cater for mobiles as that is the average entry screen size for smartphones.
+* [Mobile Home]()
+* [Mobile Blog]()
+* [Mobile Checkout]()
+* [Mobile Products]()
 
 ## Code validation & Testing
 ### Testing
@@ -183,8 +198,8 @@ The program is set to be deployed automatically manually after each push from gi
 
 ### Credits
 * Django tutorial videos from Codemy.com
-* Bim Williams, Manny Silva & Adil Bashir.
-Allauth templates were provided to me by Daisy as my initial ones caused button clicks to go to the wrong urls. She also provided me with the code that allowed DEBUG to be true in development and advice on having static files accessed from different sources depending on whether in DEVELOPMENT or not.
-The bootstrap template came with CSS and JS files which were adapted however bespoke code that was written has been marked seperately in the ActiveNavLink.js file and at the bottom of the style.css file.
-Business name and treatment offers belong to JA Therapies.
-Lastly my new mentor Chris Quinn who sent me the documentation for white noise.
+* CI walkthrough videos.
+* Bim Williams, Manny Silva & Adil Bashir for providing experiential learning from themselves as well as best practice.
+* The CI walkthrough came with CSS and JS files which were adapted however bespoke code was also written and placed in relevant CSS files with additonal class names assigned to elements across the site.
+* Business name and treatment offers belong to S.Noor and used with permission.
+* Lastly my new mentor Chris Quinn who measured me on the marking criteria and gave me specific next steps to keep to my personal timeframe.
