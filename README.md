@@ -42,8 +42,8 @@ The aim is to build a website where users may be able to make and amend orders b
 
 * The project was transferred from a manual kanban tracker to a digital format using Github's project planning function and can be found [HERE](https://github.com/moshabbir-dotcom/Project-Portfolio-5/projects/1) or a screenshot of completion [HERE](media/User_Stories_Complete.png)
 
-## Wireframe <!--FINISH>
-* The basic wireframe design was put together with the client with a few preference as to how the site was visualised and on discussion it was possible to identify a few points to work towards with an element of flexibility around visuals to be reviewed at the end of every sprint. 
+## Wireframe & Database schema <!--FINISH>
+* The basic wireframe design was put together with the client with a few preference as to how the site was visualised and on discussion it was possible to identify a few points to work towards with an element of flexibility around visuals to be reviewed at the end of every sprint.
 
 ### Desktop 1024px
 * [Desktop]()
@@ -154,8 +154,8 @@ The points pulled from the wireframes were:
 [TEST_VIEW_ORDER_DETAIL]()
 [TEST_VIEW_ORDERS]()
 
-### HTML <!-- finsih-->
-* All HTML pages were tested via URL input and passed validation before submission. Errors were displayed on the validation pages however these were due to the the jinja templating language used in python triggering error warnings in the HTML validator.
+### HTML
+* All HTML pages were tested via URL input and passed validation before submission. Errors were displayed on the validation pages however these were due to the the jinja templating language used in python triggering error warnings in the HTML validator. The Gitpod terminal however had extensions installed to ensure the formatting was correct and this is evidenced [HERE]() with a creengrab of HTML pages open in the workspace with NO PROBLEMS highligted in the workspace.
 ### CSS
 * The bulk of the CSS was from the bootstrap template provided by the CI walkthrough however this was customised in order to fulfill marking criteria and adhere to the colour scheme selected and passed validation which is evidenced for each respective CSS style sheet below:
 * [STYLE.CSS]()
@@ -163,7 +163,7 @@ The points pulled from the wireframes were:
 * [BLOG.CSS]()
 * [PROFILE.CSS]()
 ### JavaScript
-* Javascript was taken from the CI walkthrough and modified in places.
+* Javascript was taken from the CI walkthrough and modified in places and passed validation with evidence [HERE]().
 ### Python
 * All Python code was tested through an external PEP8 validator and passed even though the pylint module in some occasions reported errors. The evidence of PEP8 validation being adhered to on the files that showed these errors is below:
 * [Product Views]()
