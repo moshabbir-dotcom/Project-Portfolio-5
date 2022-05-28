@@ -11,7 +11,8 @@ class Post(models.Model):
     updated_on = models.DateTimeField(auto_now_add=True)
     content = models.TextField()
     author = models.ForeignKey(
-        User, on_delete=models.CASCADE, related_name="post", default=1)
+                               User, on_delete=models.CASCADE,
+                               related_name="post", default=1)
     created_on = models.DateTimeField(auto_now_add=True)
 
     class Meta:
@@ -35,7 +36,9 @@ class Comment(models.Model):
     post = models.ForeignKey(
         Post, related_name='comments', on_delete=models.CASCADE)
     comment_author = models.ForeignKey(
-        User, on_delete=models.CASCADE, related_name="comment", default=1)
+                                       User, on_delete=models.CASCADE,
+                                       related_name="comment",
+                                       default=1)
     comment = models.TextField()
     date_added = models.DateTimeField(auto_now_add=True)
 
