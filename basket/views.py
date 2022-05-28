@@ -23,8 +23,8 @@ def add_to_basket(request, item_id):
     if item_id in list(basket.keys()):
         basket[item_id] += quantity
         messages.success(request,
-                         f'The amount of {product.name} in your basket has \
-                          been changed to {basket[item_id]}!')
+                         f'The amount of {product.name} in your \
+                           basket has been changed to {basket[item_id]}!')
     else:
         basket[item_id] = quantity
         messages.success(request, f'{product.name}\
