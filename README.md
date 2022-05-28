@@ -54,11 +54,12 @@ The aim is to build a website where users may be able to make and amend orders b
 * As a site owner I can delete items so that website item listing remains accurate.
 * As a site owner I can obtain users emails addresses with opting in to aid in email marketing activity.
 
-* The project was transferred from a manual kanban tracker to a digital format using Github's project planning function and can be found [HERE](https://github.com/moshabbir-dotcom/Project-Portfolio-5/projects/1) or a screenshot of completion [HERE](media/User_Stories_Complete.png)
+* The project was transferred from a manual kanban tracker to a digital format using Github's project planning function and can be found [HERE](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/User_Stories_Progess.png) or a screenshot of completion [HERE](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/User_Stories_Complete.png)
 
 [Back To Top](#aljild-walshier)
 ## Wireframe & Database schema <!--FINISH>
 * The basic wireframe design was put together with the client with a few preference as to how the site was visualised and on discussion it was possible to identify a few points to work towards with an element of flexibility around visuals to be reviewed at the end of every sprint.
+* Database schema [HERE](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/database_schema/Database_Schema_PP5.pdf)
 
 ### Desktop 1024px
 * [Desktop]()
@@ -89,8 +90,8 @@ The points pulled from the wireframes were:
 [Back To Top](#aljild-walshier)
 ## Design
 ### Colours
-* The colour scheme was chosen by the site owner from a colour pallette hosted on a website called Coloors available on [Coloors](https://coolors.co/). The website has mutiple complimenting colour palettes which can be selected as a base selection of colours or mixed and matched as required. On submission this will continue to be a working project and will be cloned into a new respository for continuing work. The selected colour scheme can be seen [HERE] () where 4 of the 5 hero colours were utilised in addition to the bootstrap default colours for banners to maintain the minimalist look of the site.
-* The contrast checking on the [a11y](https://color.a11y.com/Contrast/) website showed NO contrast issues although this was an automated check and the checking site states <em>"Automatic programs such as this cannot analyze text embedded in images and may misdiagnose or ignore certain critical issues. We recommend that you combine contrast testing results from this website with a manual test performed by a trained accessibility expert."</em> With this in mind it is important to note that in the event any issues were found and raised it would be a recommendation to have an accessibility analysis performed by a trained professional to ensure and prove digital compliance before the ecommerce site would hosted in the public domain. [Bureau of Internet Accessibility](https://www.boia.org/) Evidence of the contrats check is [HERE]().
+* The colour scheme was chosen by the site owner from a colour pallette hosted on a website called Coloors available on [Coloors](https://coolors.co/). The website has mutiple complimenting colour palettes which can be selected as a base selection of colours or mixed and matched as required. On submission this will continue to be a working project and will be cloned into a new respository for continuing work. The selected colour scheme can be seen [HERE] (https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/coloors.png) where 4 of the 5 hero colours were utilised in addition to the bootstrap default colours for banners to maintain the minimalist look of the site.
+* The contrast checking on the [a11y](https://color.a11y.com/Contrast/) website showed NO contrast issues although this was an automated check and the checking site states <em>"Automatic programs such as this cannot analyze text embedded in images and may misdiagnose or ignore certain critical issues. We recommend that you combine contrast testing results from this website with a manual test performed by a trained accessibility expert."</em> With this in mind it is important to note that in the event any issues were found and raised it would be a recommendation to have an accessibility analysis performed by a trained professional to ensure and prove digital compliance before the ecommerce site would hosted in the public domain. [Bureau of Internet Accessibility](https://www.boia.org/) Evidence of the contrats check is [HERE](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Contrast_Check.png).
 ### Fonts
 * The fonts as per the template are "Akshar" & "sans-serif" as the backup font. Fonts would remain relatively consistent in the event the site is viewed on different devices with the font sans-serif being available on all devices.
 
@@ -131,65 +132,65 @@ The points pulled from the wireframes were:
 ### Rendering on different screen sizes
 * Below are examples of varying screen sizes of the same pages for different devices.
 #### Desktop 1024px
-* [Desktop Home]()
-* [Desktop Blog]()
-* [Desktop Checkout]()
-* [Desktop Products]()
+* [Desktop Home](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Home1024px.png)
+* [Desktop Blog](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Blog1024.png)
+* [Desktop Basket](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Basket1024px.png)
+* [Desktop Products](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Products1024px.png)
 
 #### Tablet 768px
-* [Tablet Home]()
-* [Tablet Blog]()
-* [Tablet Checkout]()
-* [Tablet Products]()
+* [Tablet Home](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Home768px.png)
+* [Tablet Blog](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Blog768px.png)
+* [Tablet Basket](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Basket768px.png)
+* [Tablet Products](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Products768px.png)
 
 #### Mobile 375px
 * 375px was selected as minimimum screen size to cater for mobiles as that is the average entry screen size for smartphones.
-* [Mobile Home]()
-* [Mobile Blog]()
-* [Mobile Checkout]()
-* [Mobile Products]()
+* [Mobile Home](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Home375px.png)
+* [Mobile Blog](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Blog375px.png)
+* [Mobile Basket](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Basket375px.png)
+* [Mobile Products](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Products375px.png)
 
 [Back To Top](#aljild-walshier)
 ## Code validation & Testing
 ### Testing
 * The website was tested for functionality on edge, firefox, chrome & safari browsers across Samsung S10+, S22 ultra, iPhone 11+, Macbook pro HP Pavilion & HP Spectre devices each running an operating system from macOS 12, windows 10 & 11, android and iOS 15.
 * Automated testing was not used for this project although manual testing principles were followed in testing functionality aspects of the website and proof of such is evidenced through screengrabs of the UX interface notifactions shown below:
-[TEST_ADD_COMMENT]()
-[TEST_ADD_POST]()
-[TEST_ADD_PRODUCT]()
-[TEST_AMEND+-_PRODUCT]()
-[TEST_AMENDBASKET_PRODUCT]()
-[TEST_EDIT_PRODUCT]()
-[TEST_EDIT_POST]()
-[TEST_EDITED_POST]()
-[TEST_CLEAR_BASKET]()
-[TEST_SIGNIN]()
-[TEST_SORT_AZ]()
-[TEST_SORT_DEPT_AZ]()
-[TEST_SORT_PRICE]()
-[TEST_SORT_ZA]()
-[TEST_UPDATE_PRODUCT]()
-[TEST_UPDATE_USER]()
-[TEST_VIEW_ORDER_DETAIL]()
-[TEST_VIEW_ORDERS]()
+[TEST_ADD_COMMENT](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Test_Add_Comment.png)
+[TEST_ADD_POST](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Test_Add_Post.png)
+[TEST_ADD_PRODUCT](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Test_Add_Product.png)
+[TEST_AMEND+-_PRODUCT](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Test_Amend%2B-_Product.png)
+[TEST_AMENDBASKET_PRODUCT](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Test_AmendBasket_Product.png)
+[TEST_EDIT_PRODUCT](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Test_Edit_Product.png)
+[TEST_EDIT_POST](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Test_Edit_Post.png)
+[TEST_EDITED_POST](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Test_Post_Edited.png)
+[TEST_CLEAR_BASKET](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Test_RemoveBasket_Product.png)
+[TEST_SIGNIN](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Test_SignIn.png)
+[TEST_SORT_AZ](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Test_Sort_AZ.png)
+[TEST_SORT_DEPT_AZ](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Test_Sort_Dept_AZ.png)
+[TEST_SORT_PRICE](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Test_Sort_Price.png)
+[TEST_SORT_ZA](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Test_Sort_ZA.png)
+[TEST_UPDATE_PRODUCT](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Test_Update_Product.png)
+[TEST_UPDATE_USER](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Test_Update_User.png)
+[TEST_VIEW_ORDER_DETAIL](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Test_View_Order_Detail.png)
+[TEST_VIEW_ORDERS](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Test_View_Orders.png)
 
 ### HTML
 * All HTML pages were tested via URL input and passed validation before submission. Errors were displayed on the validation pages however these were due to the the jinja templating language used in python triggering error warnings in the HTML validator. The Gitpod terminal however had extensions installed to ensure the formatting was correct and this is evidenced [HERE]() with a creengrab of HTML pages open in the workspace with NO PROBLEMS highligted in the workspace.
 ### CSS
 * The bulk of the CSS was from the bootstrap template provided by the CI walkthrough however this was customised in order to fulfill marking criteria and adhere to the colour scheme selected and passed validation which is evidenced for each respective CSS style sheet below:
-* [STYLE.CSS]()
-* [CHECKOUT.CSS]()
-* [BLOG.CSS]()
-* [PROFILE.CSS]()
+* [STYLE.CSS](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Style_CSS.png)
+* [CHECKOUT.CSS](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Checkout_CSS.png)
+* [BLOG.CSS](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Blog_CSS.png)
+* [PROFILE.CSS](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Profile_CSS.png)
 ### JavaScript
-* Javascript was taken from the CI walkthrough and modified in places and passed validation with evidence [HERE]().
+* Javascript was taken from the CI walkthrough and modified in places and passed validation with evidence [HERE](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/JSValidation2.png).
 ### Python
 * All Python code was tested through an external PEP8 validator and passed even though the pylint module in some occasions reported errors. The evidence of PEP8 validation being adhered to on the files that showed these errors is below:
-* [Product Views]()
-* [Profile Views]()
-* [Home Views]()
-* [Checkout Views]()
-* [Blog Views]()
+* [Product Views](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/ProductviewsPY.png)
+* [Profile Views](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/ProfileviewsPY.png)
+* [Home Views](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/HomeviewsPY.png)
+* [Checkout Views](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/CheckoutviewsPY.png)
+* [Blog Views](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/BlogviewsPY.png)
 
 ### Bugs
 * When attempting to add the "sort" functions in the products views it resulted in an error stating that the view could not return a sort by department. This was due to me filtering by using category name which I had registered in my product model causing confusion. To rectify this I changed the name of the field to "department" and adjusted the filtering code to also refer to department in order to maintain consistency in development.
