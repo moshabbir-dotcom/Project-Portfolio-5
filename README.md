@@ -1,4 +1,17 @@
 # Aljild-Walshier
+
+## Table of contents
+### [Background](#background)
+### [User_Experience](#user-experience)
+### [Wireframe_&_Database_schema](#wireframe--database-schema---finish)
+### [Design](#design)
+### [Technologies](#technologies)
+### [Features](#features)
+### [Code_validation_&_Testing](#code-validation--testing)
+### [Deployment](#deployment--setting-up-postgres-db)
+### [Acknowledgements](#acknowledgements-1)
+
+
 ## Background
 Aljild-Walshier in arabic means skin & hair, and was formed from taking traditional hair & skin treatment recipes passed down through generations and offer natural product treaments to all that are rooted in history. They would like to have a professional looking website that exhibits their modern approach whilst focusing on their hand blended formulas.
 
@@ -6,6 +19,7 @@ As the company is only starting a digital offering they require a website with a
 
 The aim is to build a website where users may be able to make and amend orders but where unregistered users also have an option to purchase. It would also require a facility for the site administrator to be able to quickly and easily amend and update product and departmental listings.
 
+[Back To Top](#aljild-walshier)
 ## User Experience
 ### User Stories
 * As a user I can view a list of items so that some can be selected for purchase.
@@ -42,6 +56,7 @@ The aim is to build a website where users may be able to make and amend orders b
 
 * The project was transferred from a manual kanban tracker to a digital format using Github's project planning function and can be found [HERE](https://github.com/moshabbir-dotcom/Project-Portfolio-5/projects/1) or a screenshot of completion [HERE](media/User_Stories_Complete.png)
 
+[Back To Top](#aljild-walshier)
 ## Wireframe & Database schema <!--FINISH>
 * The basic wireframe design was put together with the client with a few preference as to how the site was visualised and on discussion it was possible to identify a few points to work towards with an element of flexibility around visuals to be reviewed at the end of every sprint.
 
@@ -71,6 +86,7 @@ The points pulled from the wireframes were:
 
 * With these defined it was a matter of using bootstrap to customise the visuals of the site although using a bootstrap template would also have been an option. These were looked at with the client in order to understand what "look" the site owners were after. Pages from allauth were then customised to fit the requirements of the client with regards to visual aesthetic of the trest of the site both in HTML design and CSS styling. <!--FINISH-->
 
+[Back To Top](#aljild-walshier)
 ## Design
 ### Colours
 * The colour scheme was chosen by the site owner from a colour pallette hosted on a website called Coloors available on [Coloors](https://coolors.co/). The website has mutiple complimenting colour palettes which can be selected as a base selection of colours or mixed and matched as required. On submission this will continue to be a working project and will be cloned into a new respository for continuing work. The selected colour scheme can be seen [HERE] () where 4 of the 5 hero colours were utilised in addition to the bootstrap default colours for banners to maintain the minimalist look of the site.
@@ -78,6 +94,7 @@ The points pulled from the wireframes were:
 ### Fonts
 * The fonts as per the template are "Akshar" & "sans-serif" as the backup font. Fonts would remain relatively consistent in the event the site is viewed on different devices with the font sans-serif being available on all devices.
 
+[Back To Top](#aljild-walshier)
 ## Technologies
 ### Languages
 * [HTML](https://www.w3schools.com/html/)
@@ -105,32 +122,34 @@ The points pulled from the wireframes were:
 * [WhiteNoise](http://whitenoise.evans.io/en/stable/)
 * [Coloors](https://coolors.co/)
 
+[Back To Top](#aljild-walshier)
 ## Features
 ### Navigation
 * The navigation bar was designed as a collapsible menu from heading on larger screen sizes above mobile to allow for ease of navigation with cluttering the simplicity of the aesthetics.
 * The menu was a combination of "burger" menu on smaller devices in additon to the heading icons to allow for ease of UX
 
-## Rendering on different screen sizes
+### Rendering on different screen sizes
 * Below are examples of varying screen sizes of the same pages for different devices.
-### Desktop 1024px
+#### Desktop 1024px
 * [Desktop Home]()
 * [Desktop Blog]()
 * [Desktop Checkout]()
 * [Desktop Products]()
 
-### Tablet 768px
+#### Tablet 768px
 * [Tablet Home]()
 * [Tablet Blog]()
 * [Tablet Checkout]()
 * [Tablet Products]()
 
-### Mobile 375px
+#### Mobile 375px
 * 375px was selected as minimimum screen size to cater for mobiles as that is the average entry screen size for smartphones.
 * [Mobile Home]()
 * [Mobile Blog]()
 * [Mobile Checkout]()
 * [Mobile Products]()
 
+[Back To Top](#aljild-walshier)
 ## Code validation & Testing
 ### Testing
 * The website was tested for functionality on edge, firefox, chrome & safari browsers across Samsung S10+, S22 ultra, iPhone 11+, Macbook pro HP Pavilion & HP Spectre devices each running an operating system from macOS 12, windows 10 & 11, android and iOS 15.
@@ -183,6 +202,7 @@ The points pulled from the wireframes were:
 * After deploying to Heroku when running the port 8000 development there was an error stating "SECRET_KEY cannot be empty" so DEVELOPMENT was set back to true and the delployed secret key added back to settings until final deployment when new one was generated so any secret key in commit historys would be irrelevant and no longer valid.
 * When setting the url for the newsletter subscription page there was an error generated where the url pattern defined was looking for a slug within the which was not relevant for this particular page, (as would have been the case for the CRUD functions within the blog app). This was fixed by setting the url pattern for blog/newsletter to BEFORE those requiring a slug and the page was then rendered without issue.
 
+[Back To Top](#aljild-walshier)
 ## Deployment & setting up Postgres DB
 * On the home screen click on create new app
 * Enter project name & select region
@@ -196,7 +216,8 @@ The points pulled from the wireframes were:
 
 The program is set to be deployed automatically manually after each push from gitpod since the heroku security breach. This ensures the website is running before a deployment with minor changes to it could potentially create an issue and this way allows for more control. It is done but logging in via the CLI and connecting to the relevant repo and pushing to github and heroku seperatley with <em>git push origin main</em> & <em>git push heroku main</em> respectively.
 
-### Credits
+[Back To Top](#aljild-walshier)
+## Acknowledgements
 * Django tutorial videos from Codemy.com
 * CI walkthrough videos.
 * Bim Williams, Manny Silva & Adil Bashir for providing experiential learning from themselves as well as best practice.
