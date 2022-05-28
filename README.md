@@ -58,34 +58,36 @@ The aim is to build a website where users may be able to make and amend orders b
 
 [Back To Top](#aljild-walshier)
 ## Wireframe & Database schema <!--FINISH>
-* The basic wireframe design was put together with the client with a few preference as to how the site was visualised and on discussion it was possible to identify a few points to work towards with an element of flexibility around visuals to be reviewed at the end of every sprint.
-* Database schema [HERE](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/database_schema/Database_Schema_PP5.pdf)
+* The basic wireframe designs were put together with a few preference as to how the site was visualised and it was possible to identify a few points to work towards with consistancy to be put into the base.html file an element of flexibility around visuals on other pages.
 
 ### Desktop 1024px
 * [Desktop]()
 * [Desktop Blog]()
-* [Desktop Checkout]()
+* [Desktop Input]()
+* [Desktop Products]()
 
 ### Tablet 768px
 * [Tablet]()
 * [Tablet Blog]()
-* [Tablet Checkout]()
+* [Tablet Input]()
+* [Tablet Products]()
 
 ### Mobile 375px
 * 375px was selected as minimimum screen size to cater for mobiles as that is the average entry screen size for smartphones.
 * [Mobile]()
 * [Mobile Blog]()
-* [Mobile Checkout]()
-
-
+* [Mobile Products]()
 
 The points pulled from the wireframes were:
 * Minimalist design with attention towards the interactive parts of the pages.
+* Social media links to be on home page only to not clutter other pages.
 * Homepage to have a "hero" image with text & button overlay.
 * The menu and logo would fit convention standards with a "burger" menu for smaller screen sizes.
 * Quick link options for search as part of a dropdown menu.
+* Blog page will have 3x3 grid as opposed to 4x4 grid for products.
+* Input and report pages to be offset left with related content on the right such as a Blogpost on the left and comments to the right & delivery information to the left 
 
-* With these defined it was a matter of using bootstrap to customise the visuals of the site although using a bootstrap template would also have been an option. These were looked at with the client in order to understand what "look" the site owners were after. Pages from allauth were then customised to fit the requirements of the client with regards to visual aesthetic of the trest of the site both in HTML design and CSS styling. <!--FINISH-->
+* Database schema describing models and relation to one another is [HERE](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/database_schema/Database_Schema_PP5.pdf)
 
 [Back To Top](#aljild-walshier)
 ## Design
