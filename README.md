@@ -72,16 +72,16 @@ The points pulled from the wireframes were:
 * The basic wireframe designs were put together with a few preference as to how the site was visualised and it was possible to identify a few points to work towards with consistancy to be put into the base.html file an element of flexibility around visuals on other pages and some images are able to be accessed below. (As this piece of work is not a team effort, wireframes were handrawn with points to cover although in a team enviroment designs would have to be more specific to prevent different interpretation of design.)
 
 ### Desktop 1024px wireframes
-* [Desktop_Home_&_Products]()
-* [Desktop_Blog_&_Info]()
+* [Desktop_Home_&_Products](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/wireframes/Home_ProductsWF1024.jpg)
+* [Desktop_Blog_&_Info](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/wireframes/Blog_InfoWF1024.jpg)
 
 ### Tablet 768px wireframes
-* [Tablet_Home_&_Products]()
-* [Tablet_Blog_&_Info]()
+* [Tablet_Home_&_Products](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/wireframes/Home_ProductsWF768.jpg)
+* [Tablet_Blog_&_Info](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/wireframes/Blog_InfoWF768.jpg)
 
 ### Mobile 375px wireframes
 * 375px was selected as minimimum screen size to cater for mobiles as that is the average entry screen size for smartphones.
-* [Mobile]()
+* [Mobile](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/wireframes/MobileWF_All.jpg)
 
 [Back To Top](#aljild-walshier)
 ## Design
@@ -171,7 +171,11 @@ The points pulled from the wireframes were:
 [TEST_VIEW_ORDERS](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Test_View_Orders.png)
 
 ### HTML
-* All HTML pages were tested via URL input and passed validation before submission. Errors were displayed on the validation pages however these were due to the the jinja templating language used in python triggering error warnings in the HTML validator. The Gitpod terminal however had extensions installed to ensure the formatting was correct and this is evidenced [HERE]() with a creengrab of HTML pages open in the workspace with NO PROBLEMS highligted in the workspace.
+* All HTML pages were tested via URL input and passed validation before submission. Errors were displayed on the validation pages however these were due to the the jinja templating language used in python triggering error warnings in the HTML validator. The Gitpod terminal however had extensions installed to ensure the formatting was correct and this is evidenced [HERE]() with a creengrab of HTML pages open in the workspace with NO PROBLEMS highligted in the workspace. In addition to this there are also W3C screenshots of randomly selected HTML pages showing no issue.
+* [HomeHTML](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/HomeHTML.png)
+* [BlogHTML](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/BlogHTML.png)
+* [ProductsHTML](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/ProductsHTML.png)
+
 ### CSS
 * The bulk of the CSS was from the bootstrap template provided by the CI walkthrough however this was customised in order to fulfill marking criteria and adhere to the colour scheme selected and passed validation which is evidenced for each respective CSS style sheet below:
 * [STYLE.CSS](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Style_CSS.png)
@@ -179,7 +183,7 @@ The points pulled from the wireframes were:
 * [BLOG.CSS](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Blog_CSS.png)
 * [PROFILE.CSS](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Profile_CSS.png)
 ### JavaScript
-* Javascript was taken from the CI walkthrough and modified in places and passed validation with evidence [HERE](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/JSValidation2.png).
+* Javascript was taken from the CI walkthrough and modified in places and passed validation with evidence [HERE](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/JSValidation2.png) & [HERE](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/JSValidation3.png)
 ### Python
 * All Python code was tested through an external PEP8 validator and passed even though the pylint module in some occasions reported errors. The evidence of PEP8 validation being adhered to on the files that showed these errors is below:
 * [Product Views](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/ProductviewsPY.png)
@@ -219,5 +223,5 @@ The program is set to be deployed automatically manually after each push from gi
 * CI walkthrough videos.
 * Bim Williams, Manny Silva & Adil Bashir for providing experiential learning from themselves as well as best practice.
 * The CI walkthrough came with CSS and JS files which were adapted however bespoke code was also written and placed in relevant CSS files with additonal class names assigned to elements across the site.
-* Business name and treatment offers belong to S.Noor and used with permission.
+* Business name and product names belong to S.Noor and used with permission.
 * Lastly my new mentor Chris Quinn who measured me on the marking criteria and gave me specific next steps to keep to my personal timeframe.
