@@ -22,5 +22,6 @@ class DepartmentAdmin(admin.ModelAdmin):
         'name',
     )
 
+
 admin.site.register(Product, ProductAdmin)
 admin.site.register(Department, DepartmentAdmin)
