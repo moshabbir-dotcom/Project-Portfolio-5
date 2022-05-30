@@ -57,26 +57,8 @@ The aim is to build a website where users may be able to make and amend orders b
 * The project was transferred from a manual kanban tracker to a digital format using Github's project planning function and can be found [HERE](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/User_Stories_Progess.png) or a screenshot of completion [HERE](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/User_Stories_Complete.png)
 
 [Back To Top](#aljild-walshier)
-## Wireframe & Database schema <!--FINISH>
-* The basic wireframe designs were put together with a few preference as to how the site was visualised and it was possible to identify a few points to work towards with consistancy to be put into the base.html file an element of flexibility around visuals on other pages.
-
-### Desktop 1024px
-* [Desktop]()
-* [Desktop Blog]()
-* [Desktop Input]()
-* [Desktop Products]()
-
-### Tablet 768px
-* [Tablet]()
-* [Tablet Blog]()
-* [Tablet Input]()
-* [Tablet Products]()
-
-### Mobile 375px
-* 375px was selected as minimimum screen size to cater for mobiles as that is the average entry screen size for smartphones.
-* [Mobile]()
-* [Mobile Blog]()
-* [Mobile Products]()
+## Wireframe & Database schema
+* Database schema describing models and relation to one another is [HERE](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/database_schema/Database_Schema_PP5.pdf)
 
 The points pulled from the wireframes were:
 * Minimalist design with attention towards the interactive parts of the pages.
@@ -85,9 +67,21 @@ The points pulled from the wireframes were:
 * The menu and logo would fit convention standards with a "burger" menu for smaller screen sizes.
 * Quick link options for search as part of a dropdown menu.
 * Blog page will have 3x3 grid as opposed to 4x4 grid for products.
-* Input and report pages to be offset left with related content on the right such as a Blogpost on the left and comments to the right & delivery information to the left 
+* Tablet display will have mobile style "condensed" nav with 2x2 grids for both blogs and product views.
+* Input and report pages to be offset left with related content on the right such as a Blogpost on the left and comments to the right & delivery information to the left.
+* The basic wireframe designs were put together with a few preference as to how the site was visualised and it was possible to identify a few points to work towards with consistancy to be put into the base.html file an element of flexibility around visuals on other pages and some images are able to be accessed below. (As this piece of work is not a team effort, wireframes were handrawn with points to cover although in a team enviroment designs would have to be more specific to prevent different interpretation of design.)
 
-* Database schema describing models and relation to one another is [HERE](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/database_schema/Database_Schema_PP5.pdf)
+### Desktop 1024px wireframes
+* [Desktop_Home_&_Products]()
+* [Desktop_Blog_&_Info]()
+
+### Tablet 768px wireframes
+* [Tablet_Home_&_Products]()
+* [Tablet_Blog_&_Info]()
+
+### Mobile 375px wireframes
+* 375px was selected as minimimum screen size to cater for mobiles as that is the average entry screen size for smartphones.
+* [Mobile]()
 
 [Back To Top](#aljild-walshier)
 ## Design
