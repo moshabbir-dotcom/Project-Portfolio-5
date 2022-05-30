@@ -171,7 +171,7 @@ The points pulled from the wireframes were:
 [TEST_VIEW_ORDERS](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Test_View_Orders.png)
 
 ### HTML
-* All HTML pages were tested via URL input and passed validation before submission. Errors were displayed on the validation pages however these were due to the the jinja templating language used in python triggering error warnings in the HTML validator. The Gitpod terminal however had extensions installed to ensure the formatting was correct and this is evidenced [HERE]() with a creengrab of HTML pages open in the workspace with NO PROBLEMS highligted in the workspace. In addition to this there are also W3C screenshots of randomly selected HTML pages showing no issue.
+* All HTML pages were tested via URL input and passed validation before submission. Errors were displayed on the validation pages however these were due to the the jinja templating language used in python triggering error warnings in the HTML validator. The Gitpod terminal however had extensions installed to ensure the formatting was correct and this is evidenced [HERE](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/HTMLValidation.png) with a creengrab of HTML pages open in the workspace with NO PROBLEMS highligted in the workspace. In addition to this there are also W3C screenshots of randomly selected HTML pages showing no issue.
 * [HomeHTML](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/HomeHTML.png)
 * [BlogHTML](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/BlogHTML.png)
 * [ProductsHTML](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/ProductsHTML.png)
@@ -204,7 +204,8 @@ The points pulled from the wireframes were:
 * When setting the url for the newsletter subscription page there was an error generated where the url pattern defined was looking for a slug within the which was not relevant for this particular page, (as would have been the case for the CRUD functions within the blog app). This was fixed by setting the url pattern for blog/newsletter to BEFORE those requiring a slug and the page was then rendered without issue.
 
 [Back To Top](#aljild-walshier)
-## Deployment & setting up Postgres DB
+## Deployment 
+### Setting up Heroku & Postgres DB
 * On the home screen click on create new app
 * Enter project name & select region
 * Under resources add database to the app resources by selecting Herku Postgres and adding it to env.py in the follwing steps
@@ -216,6 +217,115 @@ The points pulled from the wireframes were:
 * Once complete the view button will allow the app to be shown in a browser
 
 The program is set to be deployed automatically manually after each push from gitpod since the heroku security breach. This ensures the website is running before a deployment with minor changes to it could potentially create an issue and this way allows for more control. It is done but logging in via the CLI and connecting to the relevant repo and pushing to github and heroku seperatley with <em>git push origin main</em> & <em>git push heroku main</em> respectively.
+
+### Amazon AWS
+
+* Create Amazon AWS account and create a new bucket in the S3 services section  and choose your closest region.
+* Uncheck block all public access and create bucket. 
+* From Properties tab turn on static website hosting using default values of index.html and errors.html.
+* On permissions tab include CORS configuration:
+```python
+[
+  {
+      "AllowedHeaders": [
+          "Authorization"
+      ],
+      "AllowedMethods": [
+          "GET"
+      ],
+      "AllowedOrigins": [
+          "*"
+      ],
+      "ExposeHeaders": []
+  }
+]
+```
+* Create security policy: S3 Bucket Policy, allow all principles by adding a " * " and Amazon S3 services and selecting Get Object action. Paste ARN from Bucket Policy, add statement, generate policy and copy and paste into Bucket Policy. Also add " /* " at end of resource key to allow use of all pages. 
+* Under public access select access to all List Objects. 
+* Create a group for bucket through IAM. Create policy by importing AWS S3 Full Access policy and add the ARN from bucket to policy resources & attach policy to the group. 
+* Create user, give programmatic access and add the user to group. Download the CSV file when prompted to save access key ID and secret access key to save to environment and config variables.
+* Add AWS_STORAGE_BUCKET_NAME, AWS_S3_REGION_NAME = 'eu-west-2' to settings.py.
+* Add, commit and push to GitHub then navigate to Heroku to confirm static files collected successfully on build Log. The "DISABLE_COLLECTSTATIC" variable is now able to be deleted.
+
+### GMail Client
+
+In "settings.py" change "DEFAULT_FROM_EMAIL" to Gmail address.
+
+*  Go to Gmail account and navigate to "Settings" tab.
+*  Go to "Accounts and Imports", "Other Google Account Settings".
+*  Go to "Security" tab, and scroll to "Sign in to Google".
+*  If required, click to turn on "2-step Verification", then "Get Started", and enter your password.
+*  Verify using your preferred method, and turn on 2-step verification.
+*  Go back to "Security", "Sig in to Google", then to "App Password".
+*  Enter password again if prompted, then set "App" to "Mail", "Device" to "Other", and type in "Django".
+*  Copy and paste passcode that shows up which is the "EMAIL_HOST_PASS" variable to add to your environment/config variables. "EMAIL_HOST_USER" is the Gmail email address.
+
+### Config Vars
+
+The config/environment variables should be set up as follows:
+
+| Key                    | Value                      |
+| ---------------------- |--------------------------- |
+| PORT                   | 8000                       |
+| IP                     | 0.0.0.0                    |
+| SECRET_KEY             | YOUR_SECRET_KEY            |
+| STRIPE_PUBLIC_KEY      | STRIPE_PUBLIC_KEY          |
+| STRIPE_SECRET_KEY      | YOUR_STRIPE_SECRET_KEY     |
+| STRIPE_WH_SECRET       | STRIPE_WEBHOOKS_KEY        |
+| DATABASE_URL           | YOUR_POSTGRES_URL          |
+| AWS_ACCESS_KEY_ID      | YOUR_AWS_ACCESS_KEY_ID     |
+| AWS_SECRET_ACCESS_KEY  | YOUR_AWS_SECRET_ACCESS_KEY |   
+| USE_AWS                | True                       |
+| EMAIL_HOST_PASS        | YOUR_EMAIL_HOST_PASSCODE   |
+| EMAIL_HOST_USER        | YOUR_EMAIL_HOST_USERNAME   |
+
+### Where to find Config Var Key-value Pairs 
+
+To find the values of each key:
+
+* "SECRET_KEY:" This is a random string provided when creating the Django project and can be changed to ensure extra security using a key generator online. 
+* "DATABASE_URL:" This is temporary.
+* "STRIPE_PUBLIC_KEY:" Retrieved from Stripe Dashboard in Developer's API section (Publishable key).
+* "STRIPE_SECRET_KEY:" Retrieved from Stripe Dashboard in Developer's API section (Secret key)
+* "STRIPE_WH_SECRET:" Retrieved from Stripe Dashboard in Developer's after creating an endpoint for your webhook (Signing secret).
+* "EMAIL_HOST_USER:" Own email address or username.
+* "EMAIL_HOST_PASS:" Own passcode from email client.
+* "AWS_SECRET_ACCESS_KEY": From the CSV file downloaded having created a User in Amazon AWS S3.
+* "AWS_ACCESS_KEY_ID:" From the CSV file downloaded having created a User in Amazon AWS S3.
+
+### Forking a repository
+
+If you need to make a copy of a repository:
+
+* Login or Sign Up to [GitHub](www.github.com).
+* On GitHub, go to moshabbir-dotcom/Project-Portfolio-5.
+* In the top right corner, click "Fork".
+
+### Cloning a repository
+
+To make a clone:
+
+* Login in to [GitHub](www.github.com).
+* Fork the repository moshabbir-dotcom/Project-Portfolio-5 using the steps above in forking a repository.
+* Above the file list, click "Code".
+* Choose to clone using HTTPS, SSH or GitHub CLI, then click copy button to the right.
+* Open Git Bash.
+* Change directory to where clone should go.
+* Type "git clone" and then paste the URL copied in step 4.
+* Press Enter & create clone.
+
+### Making a local clone
+
+To make a local clone:
+
+1. Login in to [GitHub](www.github.com).
+2. Under the repository name above list of files, hit "Code".
+3. Either Clone or Download the repository.
+4. Clone the repository using HTTPS, clicking icon to copy link.
+5. Open Git Bash.
+6. Change current working directory to new location, where cloned directory should be.
+7. Type "git clone" and paste the URL copied in step 4.
+8. Hit Enter and local clone is created.
 
 [Back To Top](#aljild-walshier)
 ## Acknowledgements
