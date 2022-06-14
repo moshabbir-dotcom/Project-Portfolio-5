@@ -27,7 +27,7 @@ def newsletter(request):
 
     template = 'blog/newsletter.html'
     context = {
-        'form': form
+        'form': form,
     }
 
     return render(request, template, context)
@@ -90,7 +90,7 @@ def post_detail(request, slug):
     template = 'blog/post_detail.html'
     context = {
         'post': post,
-        'form': form
+        'form': form,
     }
 
     return render(request, template, context)
