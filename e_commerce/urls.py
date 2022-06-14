@@ -28,3 +28,5 @@ urlpatterns = [
     path('profile/', include('profiles.urls')),
     path('blog/', include('blog.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+handler404 = "e_commerce.views.page_404_view"
