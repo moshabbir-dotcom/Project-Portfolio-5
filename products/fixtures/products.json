@@ -1,1 +1,419 @@
-[{"model": "products.product", "pk": 1, "fields": {"department": 1, "sku": "7860001", "name": "Anti-Ageing Dry skin Serum 30ml", "description": "This anti-ageing serum results in firmer, healthier skin, even skin tone, and very few wrinkles. The skin retains its youthful glow from use. This serum also tackles brown spots, post break out from masks, and skin discoloration.", "price": "19.99", "image_url": null, "image": ""}}, {"model": "products.product", "pk": 2, "fields": {"department": 10, "sku": "7860002", "name": "Anti Cellulite Oil 100ml", "description": "Anti-cellulite oil helps to break down the appearance of fat cells in stubborn the abdomen, thighs, buttocks, and hip areas. It is immediately absorbed into the upper skin attacking the unwanted “orange peel” look. This aromatic oil also helps to eliminate stubborn toxins from pores delivering an overall feeling of wellbeing.", "price": "29.99", "image_url": null, "image": ""}}, {"model": "products.product", "pk": 3, "fields": {"department": 4, "sku": "7860003", "name": "Hair Growth Oil 30ml", "description": "This hair growth oil improves the condition of the hair, restores the nutrients to the hair and scalp, increasing moisture, hair production, eliminates breakages and strengthen the roots, enhancing lustre and shine.", "price": "27.99", "image_url": null, "image": ""}}, {"model": "products.product", "pk": 4, "fields": {"department": 5, "sku": "7860004", "name": "Leave In Conditioning Serum 50ml", "description": "This conditioning serum has been designed and created to coat the hair shaft surface to help to reveal the added hydration, shine and smoothness. It has been formulated to provide a protective layer over the hair fibre, assisting in smoothing frizz and strengthening the hair. Conditioning hair serum is designed to be used on wet or dry hair and can act as both a pre-styling treatment and a finishing product.", "price": "19.99", "image_url": null, "image": ""}}, {"model": "products.product", "pk": 5, "fields": {"department": 9, "sku": "7860005", "name": "Beard Oil 30ml", "description": "Used after showering or washing your face while the pores are open, this beard oil will absorb into the skin efficiently nourishing and strengthening facial hair. It is the simplest way to keep the hair on the face strong, soft, allowing for healthier growing conditions on moisturised skin.", "price": "29.99", "image_url": null, "image": ""}}, {"model": "products.product", "pk": 6, "fields": {"department": 2, "sku": "7860006", "name": "Extreme Dry Skin Butter 50ml", "description": "Extreme dry skin butter is a thick cream that is deeply moisturizing. It can help you protect your skin from dryness as well as rough or patchy skin. Body butter typically contains a combination of naturally derived butters like cocoa, shea & mango butter.", "price": "7.99", "image_url": null, "image": "pumpbottleimage.jpg"}}, {"model": "products.product", "pk": 7, "fields": {"department": 8, "sku": "7860007", "name": "Uplifting Body Wash 100ml", "description": "The Uplifting body wash tenderly cleanses the skin with the sulphate-free cleansing system to nourish and hydrate and not stripping the skin of its natural oils. It is enriched to help to revive and rejuvenate skin. Uplifting body wash is designed with a blend of citrus essential oils stimulating the mind and body, ready for whatever the day may bring. Put a spring in your step with a fresh and energising citrus hit.", "price": "9.99", "image_url": null, "image": "upliftingsg.jpg"}}, {"model": "products.product", "pk": 8, "fields": {"department": 8, "sku": "7860008", "name": "Relaxing Body Wash 100ml", "description": "Why not experience a rapidly relaxing soothing and calm shower with this body wash? It is a \r\nnatural way to relax, de-stress, relax, unwind and so much more. It boosts mood to reduce inflammation by increasing circulation of the skin, the aromas at the heart of this body wash offer gentle and nourishing benefits to your skin.", "price": "12.99", "image_url": null, "image": "relaxingsg.jpg"}}, {"model": "products.product", "pk": 9, "fields": {"department": 10, "sku": "7860009", "name": "Body shaving Oil 100ml", "description": "This body shave oil is applied before the applying any shaving soap, shaving cream or shaving gel before shaving. The Pre-shave oil provides a defence the razor. The body shave oil lubricates and moisturises the skin delivering the perfect base for a comfortable shave, resulting in a pain-free shave with no rash, dry blotchy, or razor burns, leaving skin conditioned and moisturised.", "price": "11.99", "image_url": null, "image": ""}}, {"model": "products.product", "pk": 10, "fields": {"department": 10, "sku": "7860010", "name": "Post Workout Oil 100ml", "description": "Post workout Oil contains a blend of high-grade essential oils which are recognised for their ability to soothe and relieve tired, sore muscles after workouts. Pre-workout is used to boost energy and increase stamina during the workout, post-workout assists in muscular recovery and muscle building after the complete workout.", "price": "15.99", "image_url": null, "image": ""}}, {"model": "products.product", "pk": 11, "fields": {"department": 10, "sku": "7860011", "name": "Glow Oil 50ml", "description": "Our Glow Oil illuminates, revitalises and revives the complexion whilst inhibiting free radical damage of UV exposure and pollution. This intense daily oil helps to prevent premature skin ageing, refining skin texture and leaving the skin glowing. Our Glow Oil is an excellent hydrating body oil which has SPF 50 protection and a combination of nourishing ingredients which leave the skin glowing, moisturised and, most importantly, nourished.", "price": "9.99", "image_url": null, "image": ""}}, {"model": "products.product", "pk": 12, "fields": {"department": 2, "sku": "7860012", "name": "Anti Acne Oil 50ml", "description": "This anti-acne oil is effective treatments for every phase of acne, from deterrence, healing pimples and reducing the appearance of scars. The anti-acne oil possesses antiseptic, antimicrobial, and anti-inflammatory properties, making it a well-liked oil for tackling and preventing acne.", "price": "8.99", "image_url": null, "image": "images_2.jpg"}}, {"model": "products.product", "pk": 13, "fields": {"department": 4, "sku": "7860013", "name": "Hair Growth Oil 50ml", "description": "This hair growth oil improves the condition of the hair, restores the nutrients to the hair and scalp, increasing moisture, hair production, eliminates breakages and strengthen the roots, enhancing lustre and shine.", "price": "54.99", "image_url": null, "image": ""}}, {"model": "products.product", "pk": 14, "fields": {"department": 9, "sku": "7860014", "name": "Natural Beard pre-shave oil 30ml", "description": "This pre-shave oil adds extra layers of protection against nicks, cuts and irritation. It precedes applying the shaving gel. Pre-shave oil protects, hydrates, and lubricates your skin before shaving making the whole shaving process more comfortable.", "price": "27.99", "image_url": null, "image": ""}}, {"model": "products.product", "pk": 15, "fields": {"department": 9, "sku": "7860015", "name": "Natural Beard pre-shave oil 50ml", "description": "This pre-shave oil adds extra layers of protection against nicks, cuts and irritation. It precedes applying the shaving gel. Pre-shave oil protects, hydrates, and lubricates your skin before shaving making the whole shaving process more comfortable.", "price": "54.99", "image_url": null, "image": ""}}, {"model": "products.product", "pk": 16, "fields": {"department": 8, "sku": "7860020", "name": "Exfoliating Body Wash 100ml", "description": "The exfoliating body wash is an exfoliant, it physically removes dead skin cells from the outer layer of your skin with natural and gentle abrasive ingredients, stimulating the skin cell turnover which results in smoother, brighter skin.", "price": "12.99", "image_url": null, "image": "exfoliatingsg.jpg"}}, {"model": "products.product", "pk": 17, "fields": {"department": 1, "sku": "7860016", "name": "Anti-Ageing cream 30ml", "description": "This anti-aging cream tightens and hydrates the skin giving a special radiance, at the same time preventing discolouration and preventing age spots. It also increases self-confidence allowing positive effect on your health.", "price": "19.99", "image_url": null, "image": ""}}, {"model": "products.product", "pk": 18, "fields": {"department": 9, "sku": "7860017", "name": "Conditioning Beard Oil 30ml", "description": "The Beard oil conditions, moisturises, and softens beard hair. Very effective for moisturising the skin beneath your beard. Beard oil is used to keep beards looking fuller, softer, and tamer. Sometimes used to promote beard growth.", "price": "29.99", "image_url": null, "image": ""}}, {"model": "products.product", "pk": 19, "fields": {"department": 9, "sku": "7860018", "name": "Conditioning Beard Oil 100ml", "description": "The Beard oil conditions, moisturises, and softens beard hair. Very effective for moisturising the skin beneath your beard. Beard oil is used to keep beards looking fuller, softer, and tamer. Sometimes used to promote beard growth.", "price": "54.99", "image_url": null, "image": ""}}, {"model": "products.product", "pk": 20, "fields": {"department": 7, "sku": "7860019", "name": "Turbi Towel", "description": "The turbi towel eliminates the need to wring, rub, apply heat, or perform any other harsh daily rituals which causes hair breakage. It cuts down dry time and limit frizziness, gently smoothing the hair shaft absorbing excess moisture without over drying the hair.", "price": "14.99", "image_url": null, "image": ""}}, {"model": "products.product", "pk": 21, "fields": {"department": 10, "sku": "7860021", "name": "Combination Skin Cream 50ml", "description": "Combination skin cream is a light water-based moisturises which restores balance in the complexion. This cream counteracts oiliness whilst moisturising the dry areas.", "price": "19.99", "image_url": null, "image": ""}}, {"model": "products.product", "pk": 22, "fields": {"department": 7, "sku": "7860022", "name": "Long & Thin Hair Brush", "description": "It is essential a hairbrush is chosen based on the length and texture of your hair. For long and thin hair, a paddle brush or flat brush with boar bristles works well. (Design may vary from picture)", "price": "9.99", "image_url": null, "image": ""}}, {"model": "products.product", "pk": 23, "fields": {"department": 7, "sku": "7860023", "name": "Straight Hair Brush", "description": "It is essential a hairbrush is chosen based on the length and texture of your hair. Straight hair styles require a paddle brush such as this as the ideal choice. (Design may vary from picture)", "price": "9.99", "image_url": null, "image": ""}}, {"model": "products.product", "pk": 24, "fields": {"department": 7, "sku": "7860024", "name": "Curly Hair Brush", "description": "It is essential a hairbrush is chosen based on the length and texture of your hair. For curly hair, use a wide brush. (Design may vary from picture)", "price": "9.99", "image_url": null, "image": ""}}, {"model": "products.product", "pk": 25, "fields": {"department": 2, "sku": "7860025", "name": "Extremely Dry Body Lotion 150ml", "description": "This lotion hydrates, tones and brightens the skin. With some of the best oils such as sweet almond oil, jojoba and argan which are packed with antioxidants and vitamin E boosts the skins ability to heal. With a blend of lavender and ylang ylang its calming too.", "price": "34.99", "image_url": null, "image": ""}}, {"model": "products.product", "pk": 26, "fields": {"department": 5, "sku": "7860026", "name": "Conditioning hair oil 100ml", "description": "The conditioning hair oil seals moisture in the hair preventing tangles, also provides hydration, \r\nadding shine to the hair and aiding scalp health.  After oil has been massaged in the scalp, wrap the hair in a shower cap and let the oil soak to 15-30 minutes, this will feed the roots, increase moisture and add shine to the hair.", "price": "14.99", "image_url": null, "image": ""}}, {"model": "products.product", "pk": 27, "fields": {"department": 7, "sku": "7860028", "name": "Hair Clip collection", "description": "Who doesn't love an iconic hair fashion accessory? From Bobby pins to barrettes to hair slides and anything in between! To help keep your hairdo secure and in place.", "price": "7.99", "image_url": null, "image": ""}}, {"model": "products.product", "pk": 28, "fields": {"department": 3, "sku": "7860027", "name": "Damaged/Oily skin cream 50ml", "description": "If the skin is dry, irritated or itchy, may be a sign of damaged skin barrier. This is where the damaged/oily skin barrier cream can help repair and maintain it. Barrier creams help to repair the damaged skin, allowing the skin to heal itself. The barrier creams are mostly thicker, while the moisturisers boost skin hydration, helping restore damaged skin to health.", "price": "19.99", "image_url": null, "image": ""}}, {"model": "products.product", "pk": 29, "fields": {"department": 6, "sku": "7860029", "name": "Exfoliating Facial cleansing brush", "description": "This brush is made from the softest bristles sourced from baby coconut husk. When dampened this brush exfoliates without the need for rubbing or stretching the skin and can be used to exfoliate skin and remove makeup.", "price": "15.99", "image_url": null, "image": ""}}]
+[{
+    "model": "products.department",
+    "pk": 1,
+    "fields": {
+        "name": "anti_ageing",
+        "friendly_name": "Anti-Ageing"
+    }
+}, {
+    "model": "products.department",
+    "pk": 2,
+    "fields": {
+        "name": "dry_sensitive",
+        "friendly_name": "Dry & Sensitive"
+    }
+}, {
+    "model": "products.department",
+    "pk": 3,
+    "fields": {
+        "name": "oily",
+        "friendly_name": "Oily"
+    }
+}, {
+    "model": "products.department",
+    "pk": 4,
+    "fields": {
+        "name": "hair_growth",
+        "friendly_name": "Hair growth"
+    }
+}, {
+    "model": "products.department",
+    "pk": 5,
+    "fields": {
+        "name": "hair_conditioning",
+        "friendly_name": "Hair conditioning"
+    }
+}, {
+    "model": "products.department",
+    "pk": 6,
+    "fields": {
+        "name": "skincare_accessories",
+        "friendly_name": "Skincare accessories"
+    }
+}, {
+    "model": "products.department",
+    "pk": 7,
+    "fields": {
+        "name": "haircare_accessories",
+        "friendly_name": "Haircare accessories"
+    }
+}, {
+    "model": "products.department",
+    "pk": 8,
+    "fields": {
+        "name": "bathtime",
+        "friendly_name": "Bathtime"
+    }
+}, {
+    "model": "products.department",
+    "pk": 9,
+    "fields": {
+        "name": "beardcare",
+        "friendly_name": "Beard care"
+    }
+}, {
+    "model": "products.department",
+    "pk": 10,
+    "fields": {
+        "name": "skin_conditioning",
+        "friendly_name": "Skin conditioning"
+    }
+}, {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "department": 1,
+        "sku": "7860001",
+        "name": "Anti-Ageing Dry skin Serum 30ml",
+        "description": "This anti-ageing serum results in firmer, healthier skin, even skin tone, and very few wrinkles. The skin retains its youthful glow from use. This serum also tackles brown spots, post break out from masks, and skin discoloration.",
+        "price": "19.99",
+        "image_url": null,
+        "image": "images_12.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "department": 4,
+        "sku": "7860003",
+        "name": "Hair Growth Oil 30ml",
+        "description": "This hair growth oil improves the condition of the hair, restores the nutrients to the hair and scalp, increasing moisture, hair production, eliminates breakages and strengthen the roots, enhancing lustre and shine.",
+        "price": "27.99",
+        "image_url": null,
+        "image": "images_16.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "department": 5,
+        "sku": "7860004",
+        "name": "Leave In Conditioning Serum 50ml",
+        "description": "This conditioning serum has been designed and created to coat the hair shaft surface to help to reveal the added hydration, shine and smoothness. It has been formulated to provide a protective layer over the hair fibre, assisting in smoothing frizz and strengthening the hair. Conditioning hair serum is designed to be used on wet or dry hair and can act as both a pre-styling treatment and a finishing product.",
+        "price": "19.99",
+        "image_url": null,
+        "image": "images_13.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+        "department": 9,
+        "sku": "7860005",
+        "name": "Beard Oil 30ml",
+        "description": "Used after showering or washing your face while the pores are open, this beard oil will absorb into the skin efficiently nourishing and strengthening facial hair. It is the simplest way to keep the hair on the face strong, soft, allowing for healthier growing conditions on moisturised skin.",
+        "price": "29.99",
+        "image_url": null,
+        "image": "images_33.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+        "department": 2,
+        "sku": "7860006",
+        "name": "Extreme Dry Skin Butter 50ml",
+        "description": "Extreme dry skin butter is a thick cream that is deeply moisturizing. It can help you protect your skin from dryness as well as rough or patchy skin. Body butter typically contains a combination of naturally derived butters like cocoa, shea & mango butter.",
+        "price": "7.99",
+        "image_url": null,
+        "image": "images_14.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+        "department": 8,
+        "sku": "7860007",
+        "name": "Uplifting Body Wash 100ml",
+        "description": "The Uplifting body wash tenderly cleanses the skin with the sulphate-free cleansing system to nourish and hydrate and not stripping the skin of its natural oils. It is enriched to help to revive and rejuvenate skin. Uplifting body wash is designed with a blend of citrus essential oils stimulating the mind and body, ready for whatever the day may bring. Put a spring in your step with a fresh and energising citrus hit.",
+        "price": "9.99",
+        "image_url": null,
+        "image": "images_4.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+        "department": 8,
+        "sku": "7860008",
+        "name": "Relaxing Body Wash 100ml",
+        "description": "Why not experience a rapidly relaxing soothing and calm shower with this body wash? It is a \r\nnatural way to relax, de-stress, relax, unwind and so much more. It boosts mood to reduce inflammation by increasing circulation of the skin, the aromas at the heart of this body wash offer gentle and nourishing benefits to your skin.",
+        "price": "12.99",
+        "image_url": null,
+        "image": "images_5.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+        "department": 10,
+        "sku": "7860009",
+        "name": "Body shaving Oil 100ml",
+        "description": "This body shave oil is applied before the applying any shaving soap, shaving cream or shaving gel before shaving. The Pre-shave oil provides a defence the razor. The body shave oil lubricates and moisturises the skin delivering the perfect base for a comfortable shave, resulting in a pain-free shave with no rash, dry blotchy, or razor burns, leaving skin conditioned and moisturised.",
+        "price": "11.99",
+        "image_url": null,
+        "image": "images_26.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+        "department": 10,
+        "sku": "7860010",
+        "name": "Post Workout Oil 100ml",
+        "description": "Post workout Oil contains a blend of high-grade essential oils which are recognised for their ability to soothe and relieve tired, sore muscles after workouts. Pre-workout is used to boost energy and increase stamina during the workout, post-workout assists in muscular recovery and muscle building after the complete workout.",
+        "price": "15.99",
+        "image_url": null,
+        "image": "images_35.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 11,
+    "fields": {
+        "department": 10,
+        "sku": "7860011",
+        "name": "Glow Oil 50ml",
+        "description": "Our Glow Oil illuminates, revitalises and revives the complexion whilst inhibiting free radical damage of UV exposure and pollution. This intense daily oil helps to prevent premature skin ageing, refining skin texture and leaving the skin glowing. Our Glow Oil is an excellent hydrating body oil which has SPF 50 protection and a combination of nourishing ingredients which leave the skin glowing, moisturised and, most importantly, nourished.",
+        "price": "9.99",
+        "image_url": null,
+        "image": "images_25.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 12,
+    "fields": {
+        "department": 2,
+        "sku": "7860012",
+        "name": "Anti Acne Oil 50ml",
+        "description": "This anti-acne oil is effective treatments for every phase of acne, from deterrence, healing pimples and reducing the appearance of scars. The anti-acne oil possesses antiseptic, antimicrobial, and anti-inflammatory properties, making it a well-liked oil for tackling and preventing acne.",
+        "price": "8.99",
+        "image_url": null,
+        "image": "images_2.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 13,
+    "fields": {
+        "department": 4,
+        "sku": "7860013",
+        "name": "Hair Growth Oil 50ml",
+        "description": "This hair growth oil improves the condition of the hair, restores the nutrients to the hair and scalp, increasing moisture, hair production, eliminates breakages and strengthen the roots, enhancing lustre and shine.",
+        "price": "54.99",
+        "image_url": null,
+        "image": "images_22.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 14,
+    "fields": {
+        "department": 9,
+        "sku": "7860014",
+        "name": "Natural Beard pre-shave oil 30ml",
+        "description": "This pre-shave oil adds extra layers of protection against nicks, cuts and irritation. It precedes applying the shaving gel. Pre-shave oil protects, hydrates, and lubricates your skin before shaving making the whole shaving process more comfortable.",
+        "price": "27.99",
+        "image_url": null,
+        "image": "images_29.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 15,
+    "fields": {
+        "department": 9,
+        "sku": "7860015",
+        "name": "Natural Beard pre-shave oil 50ml",
+        "description": "This pre-shave oil adds extra layers of protection against nicks, cuts and irritation. It precedes applying the shaving gel. Pre-shave oil protects, hydrates, and lubricates your skin before shaving making the whole shaving process more comfortable.",
+        "price": "54.99",
+        "image_url": null,
+        "image": "images_11.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 16,
+    "fields": {
+        "department": 8,
+        "sku": "7860020",
+        "name": "Exfoliating Body Wash 100ml",
+        "description": "The exfoliating body wash is an exfoliant, it physically removes dead skin cells from the outer layer of your skin with natural and gentle abrasive ingredients, stimulating the skin cell turnover which results in smoother, brighter skin.",
+        "price": "12.99",
+        "image_url": null,
+        "image": "images_7.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 17,
+    "fields": {
+        "department": 1,
+        "sku": "7860016",
+        "name": "Anti-Ageing cream 30ml",
+        "description": "This anti-aging cream tightens and hydrates the skin giving a special radiance, at the same time preventing discolouration and preventing age spots. It also increases self-confidence allowing positive effect on your health.",
+        "price": "19.99",
+        "image_url": null,
+        "image": "images_6.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 18,
+    "fields": {
+        "department": 9,
+        "sku": "7860017",
+        "name": "Conditioning Beard Oil 30ml",
+        "description": "The Beard oil conditions, moisturises, and softens beard hair. Very effective for moisturising the skin beneath your beard. Beard oil is used to keep beards looking fuller, softer, and tamer. Sometimes used to promote beard growth.",
+        "price": "29.99",
+        "image_url": null,
+        "image": "images_34.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 19,
+    "fields": {
+        "department": 9,
+        "sku": "7860018",
+        "name": "Conditioning Beard Oil 100ml",
+        "description": "The Beard oil conditions, moisturises, and softens beard hair. Very effective for moisturising the skin beneath your beard. Beard oil is used to keep beards looking fuller, softer, and tamer. Sometimes used to promote beard growth.",
+        "price": "54.99",
+        "image_url": null,
+        "image": "images_27.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 20,
+    "fields": {
+        "department": 7,
+        "sku": "7860019",
+        "name": "Turbi Towel",
+        "description": "The turbi towel eliminates the need to wring, rub, apply heat, or perform any other harsh daily rituals which causes hair breakage. It cuts down dry time and limit frizziness, gently smoothing the hair shaft absorbing excess moisture without over drying the hair.",
+        "price": "14.99",
+        "image_url": null,
+        "image": "download_1.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 21,
+    "fields": {
+        "department": 10,
+        "sku": "7860021",
+        "name": "Combination Skin Cream 50ml",
+        "description": "Combination skin cream is a light water-based moisturises which restores balance in the complexion. This cream counteracts oiliness whilst moisturising the dry areas.",
+        "price": "19.99",
+        "image_url": null,
+        "image": "images_10.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 22,
+    "fields": {
+        "department": 7,
+        "sku": "7860022",
+        "name": "Long & Thin Hair Brush",
+        "description": "It is essential a hairbrush is chosen based on the length and texture of your hair. For long and thin hair, a paddle brush or flat brush with boar bristles works well. (Design may vary from picture)",
+        "price": "9.99",
+        "image_url": null,
+        "image": "download_3.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 23,
+    "fields": {
+        "department": 7,
+        "sku": "7860023",
+        "name": "Straight Hair Brush",
+        "description": "It is essential a hairbrush is chosen based on the length and texture of your hair. Straight hair styles require a paddle brush such as this as the ideal choice. (Design may vary from picture)",
+        "price": "9.99",
+        "image_url": null,
+        "image": "download_4.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 24,
+    "fields": {
+        "department": 7,
+        "sku": "7860024",
+        "name": "Curly Hair Brush",
+        "description": "It is essential a hairbrush is chosen based on the length and texture of your hair. For curly hair, use a wide brush. (Design may vary from picture)",
+        "price": "9.99",
+        "image_url": null,
+        "image": "download_2.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 25,
+    "fields": {
+        "department": 2,
+        "sku": "7860025",
+        "name": "Extremely Dry Body Lotion 150ml",
+        "description": "This lotion hydrates, tones and brightens the skin. With some of the best oils such as sweet almond oil, jojoba and argan which are packed with antioxidants and vitamin E boosts the skins ability to heal. With a blend of lavender and ylang ylang its calming too.",
+        "price": "34.99",
+        "image_url": null,
+        "image": "images_15.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 26,
+    "fields": {
+        "department": 5,
+        "sku": "7860026",
+        "name": "Conditioning hair oil 100ml",
+        "description": "The conditioning hair oil seals moisture in the hair preventing tangles, also provides hydration, \r\nadding shine to the hair and aiding scalp health.  After oil has been massaged in the scalp, wrap the hair in a shower cap and let the oil soak to 15-30 minutes, this will feed the roots, increase moisture and add shine to the hair.",
+        "price": "14.99",
+        "image_url": null,
+        "image": "images_9.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 27,
+    "fields": {
+        "department": 7,
+        "sku": "7860028",
+        "name": "Hair Clip collection",
+        "description": "Who doesn't love an iconic hair fashion accessory? From Bobby pins to barrettes to hair slides and anything in between! To help keep your hairdo secure and in place.",
+        "price": "7.99",
+        "image_url": null,
+        "image": "images_37.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 28,
+    "fields": {
+        "department": 3,
+        "sku": "7860027",
+        "name": "Damaged/Oily skin cream 50ml",
+        "description": "If the skin is dry, irritated or itchy, may be a sign of damaged skin barrier. This is where the damaged/oily skin barrier cream can help repair and maintain it. Barrier creams help to repair the damaged skin, allowing the skin to heal itself. The barrier creams are mostly thicker, while the moisturisers boost skin hydration, helping restore damaged skin to health.",
+        "price": "19.99",
+        "image_url": null,
+        "image": "images_8.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 29,
+    "fields": {
+        "department": 6,
+        "sku": "7860029",
+        "name": "Exfoliating Facial cleansing brush",
+        "description": "This brush is made from the softest bristles sourced from baby coconut husk. When dampened this brush exfoliates without the need for rubbing or stretching the skin and can be used to exfoliate skin and remove makeup.",
+        "price": "15.99",
+        "image_url": null,
+        "image": "images_21.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 30,
+    "fields": {
+        "department": 10,
+        "sku": "7860002",
+        "name": "Anti Cellulite Oil 30ml",
+        "description": "Anti cellulite oil helps to break down the appearance of fat cells & \"orange peel\" effect in stubborn areas such as abdomen, thighs, buttocks and hip areas. It is easily & quickly absorbed into the skin attacking the unwanted appearance. This aromatic oil helps to eliminate toxins, delivering an overall feeling of wellbeing.",
+        "price": "29.99",
+        "image_url": null,
+        "image": "images_17.jpg"
+    }
+}]
