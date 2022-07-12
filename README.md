@@ -150,7 +150,7 @@ The points pulled from the wireframes were:
 ## Code validation & Testing
 ### Testing
 * The website was tested for functionality on edge, firefox, chrome & safari browsers across Samsung S10+, S22 ultra, iPhone 11+, Macbook pro HP Pavilion & HP Spectre devices each running an operating system from macOS 12, windows 10 & 11, android and iOS 15.
-* Automated testing was not used for this project although manual testing principles were followed in testing functionality aspects of the website and proof of such is evidenced through screengrabs of the UX interface notifactions shown below:
+* Automated testing was not initially used for this project although manual testing principles were followed in testing functionality aspects of the website and proof of such is evidenced through screengrabs of the UX interface notifactions shown below:
 [TEST_ADD_COMMENT](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Test_Add_Comment.png)
 [TEST_ADD_POST](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Test_Add_Post.png)
 [TEST_ADD_PRODUCT](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Test_Add_Product.png)
@@ -169,6 +169,7 @@ The points pulled from the wireframes were:
 [TEST_UPDATE_USER](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Test_Update_User.png)
 [TEST_VIEW_ORDER_DETAIL](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Test_View_Order_Detail.png)
 [TEST_VIEW_ORDERS](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/Test_View_Orders.png)
+* As part of the project resubmission 17 automated tests were written and all passed for which evidence is [HERE](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/17tests.png). A learning from this is that although I initially did what I thought was robust enough for manual testing the amount of detail required becomes counter productive in the time needing to be invested hence the automated testing is far better option where it comes to evidencing the quality of code although both still could be used as a hybrid testing approach.
 
 ### HTML
 * All HTML pages were tested via URL input and passed validation before submission. Errors were displayed on the validation pages however these were due to the the jinja templating language used in python triggering error warnings in the HTML validator. The Gitpod terminal however had extensions installed to ensure the formatting was correct and this is evidenced [HERE](https://github.com/moshabbir-dotcom/Project-Portfolio-5/blob/main/docs/images/readme-images/HTMLValidation.png) with a creengrab of HTML pages open in the workspace with NO PROBLEMS highligted in the workspace. In addition to this there are also W3C screenshots of randomly selected HTML pages showing no issue.
@@ -202,6 +203,7 @@ The points pulled from the wireframes were:
 * The above had to be done again as when creating a heroku app vis the CLI by default the wrong region was set so the app was then created on the Heroku dashboard and the connected vis the CLI for deployment subsequent pushes.
 * After deploying to Heroku when running the port 8000 development there was an error stating "SECRET_KEY cannot be empty" so DEVELOPMENT was set back to true and the delployed secret key added back to settings until final deployment when new one was generated so any secret key in commit historys would be irrelevant and no longer valid.
 * When setting the url for the newsletter subscription page there was an error generated where the url pattern defined was looking for a slug within the which was not relevant for this particular page, (as would have been the case for the CRUD functions within the blog app). This was fixed by setting the url pattern for blog/newsletter to BEFORE those requiring a slug and the page was then rendered without issue.
+* After deplyment and submission it became apparant that the error 500 being returned when registering for a newsletter was due to the database in heroku having been corrupted so resulted in me having to rebuild the postgres DB. After this was done and new users set there were no issues observed.
 
 [Back To Top](#aljild-walshier)
 ## Deployment 
